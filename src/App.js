@@ -3,10 +3,16 @@ import { useForm, ValidationError } from '@formspree/react';
 import './App.css';
 
 function App() {
-  const slides = [0, 1, 2, 3, 4];
   const [email, setEmail] = useState("");
   const [content, setContent] = useState("");
   const [state, handleSubmit] = useForm("xwpaevyp");
+  
+  const home = useRef();
+  const beyond = useRef();
+  const tech = useRef();
+  const experiences = useRef();
+  const projects = useRef();
+  const contact = useRef();
 
   const onSubmit = (e) => {
     e.preventDefault(); 
@@ -76,15 +82,24 @@ function App() {
     )
   }
 
+  const scrollToSection = (ref) => {
+    ref.current.scrollIntoView({ behavior: "smooth"});
+  }
+  
+  const scrollToTop = () => {
+    window.scrollTo({top: 0, behavior: "smooth"});
+  }
+
   return (
-    <div>
+    <div ref={home}>
+      <div className='blur'></div>
       <div className='top-menu'>
-        <div className='top-menu-unit'>Home</div>
-        <div className='top-menu-unit'>Beyond</div>
-        <div className='top-menu-unit'>Tech</div>
-        <div className='top-menu-unit'>Experiences</div>
-        <div className='top-menu-unit'>Projects</div>
-        <div className='top-menu-unit'>Contact</div>
+        <div className='top-menu-unit' onClick={() => scrollToTop()}>Home</div>
+        <div className='top-menu-unit' onClick={() => scrollToSection(beyond)}>Beyond</div>
+        <div className='top-menu-unit' onClick={() => scrollToSection(tech)}>Tech</div>
+        <div className='top-menu-unit' onClick={() => scrollToSection(experiences)}>Experiences</div>
+        <div className='top-menu-unit' onClick={() => scrollToSection(projects)}>Projects</div>
+        <div className='top-menu-unit' onClick={() => scrollToSection(contact)}>Contact</div>
       </div>
         <div className='about-title' initial={{opacity: 0}}
         animate={{opacity:1}} transition={{duration: 1.4, delay: 0.3}}>
@@ -97,7 +112,7 @@ I love building engaging and interactive web applications, and
 I'm eager to bring fresh ideas and technical skills to every project I take on.</div>
           <div className='me'><div className='hand'></div></div>
         </div>
-        <div className='about-sentence'>
+        <div ref={beyond} className='about-sentence'>
         
         <div className='about-titleAndLine-beyond'>
         <div className='line'></div>
@@ -131,7 +146,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
         </div>
         </AnimationChildren>
         </div>
-        <div className='about-holder-techstacks'>
+        <div ref={tech} className='about-holder-techstacks'>
         <div className='about-holder-title-line'>
           <div className='line'></div>
           <div className='about-title-line1'>&lt;</div>
@@ -184,7 +199,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
         </div>
         </div>
         </div>
-        <div className='about-holder-title-line'>
+        <div ref={experiences} className='about-holder-title-line'>
           <div className='line'></div>
           <div className='about-title-line1'>&lt;</div>
           <div className='about-title-line2'>Experiences</div>
@@ -237,7 +252,8 @@ Although my learning pace was irregular due to military service (1.5 years) and 
         <div className='project-sentence' initial={{opacity: 0}}
         animate={{opacity:1}} transition={{duration: 0}}>
         </div>
-        <div className='about-holder-title-line'>
+        <div className='about-sentence'>
+        <div ref={projects} className='about-holder-title-line'>
           <div className='line'></div>
           <div className='about-title-line1'>&lt;</div>
           <div className='about-title-line4'>Projects</div>
@@ -245,11 +261,21 @@ Although my learning pace was irregular due to military service (1.5 years) and 
           <div className='line'></div>
         </div>
         <div className='gap'></div>
+        <div className='rab'>
         <div className='holder-project'>
         <div className='picture-project1'></div>
         <div className='holder-project-explanation'>
           <div className='title-project'>Loop Market</div>
           <div className='ex-project'>Developed a second-hand marketplace application that allows users to create accounts, log in, upload their own listings, search for items, and interact through comments.</div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Sign up, log in, and access your personalized dashboard.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Add, update, and delete content with intuitive controls.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>View and interact with feedback on your posts.</div>
+          </div>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://mainresisterlogin.onrender.com'>
                         <div className='backend-button'>#Back-end</div></a>
@@ -263,12 +289,14 @@ Although my learning pace was irregular due to military service (1.5 years) and 
             <div className='css-skill'>React</div>
             <div className='css-skill'>HTML</div>
             <div className='css-skill'>CSS</div>
-            <div className='css-skill'>JAVA</div>
-            <div className='css-skill'>JWT</div>
             </div>
             <div className='flex-project-skills-project1'>
+            <div className='css-skill'>JAVA</div>
+            <div className='css-skill'>JWT</div>
             <div className='css-skill'>MongoDB</div>
             <div className='css-skill'>NodeJS</div>
+            </div>
+            <div className='flex-project-skills-project1'>
             <div className='css-skill'>Express</div>
             <div className='css-skill'>Render</div>
             <div className='css-skill'>RestAPI</div>
@@ -277,26 +305,38 @@ Although my learning pace was irregular due to military service (1.5 years) and 
             </div>
         </div>
         </div>
+        </div>
 
         <div className='holder-project'>
         <div className='picture-project2'></div>
         <div className='holder-project-explanation'>
           <div className='title-project'>MyRecipe</div>
           <div className='ex-project'>User can search the recipe of the food what they want, while showing all instructions and Youtube video as well!</div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Find dishes quickly using API integration.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>View ingredients, cooking methods, and YouTube videos.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Keep track of recipes for easy reference anytime.</div>
+          </div>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://recipeapibysihyeon.netlify.app/'>
                         <div className='live-button'>Live</div></a></div>
           <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/RecipeAPI'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
           </div>
           <div className='holder-project-skills-project2'>
-                      <div className='css-skill'>React</div>
-                      <div className='css-skill'>HTML</div>
-                      <div className='css-skill'>CSS</div>
-                      <div className='css-skill'>JAVA</div>
-                      <div className='css-skill'>RestAPI</div>
-                      <div className='css-skill'>Express</div>
-                      <div className='css-skill'>Router</div>
-                    </div>
+            <div className='css-skill'>React</div>
+            <div className='css-skill'>HTML</div>
+            <div className='css-skill'>CSS</div>
+            </div>
+            <div className='holder-project-skills-project2'>
+            <div className='css-skill'>JAVA</div>
+            <div className='css-skill'>RestAPI</div>
+            <div className='css-skill'>Express</div>
+            <div className='css-skill'>Router</div>
+            </div>
         </div>
         </div>
 
@@ -305,6 +345,15 @@ Although my learning pace was irregular due to military service (1.5 years) and 
         <div className='holder-project-explanation'>
           <div className='title-project'>The Space</div>
           <div className='ex-project'>My main portfolio website inspired by Interstellar.</div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Click on About, Project, or Contact to zoom in on planets.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Watch planets respond as you move your mouse.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Each planet displays information and details relevant to its section.</div>
+          </div>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://spacebysihyeon.netlify.app/'>
                         <div className='live-button'>Live</div></a></div>
@@ -325,6 +374,15 @@ Although my learning pace was irregular due to military service (1.5 years) and 
         <div className='holder-project-explanation'>
           <div className='title-project'>SeanFlix</div>
           <div className='ex-project'>Built a Netflix clone using React and styled-components, replicating the original platform’s design and interactivity. Features include responsive layout, video playback, animated sections, and collapsible FAQ interactions.</div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Browse content with a fully responsive design.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Click questions to reveal answers and toggle them off again.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Enjoy smooth navigation across devices of all sizes.</div>
+          </div>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://netflisclonebysihyeon.netlify.app/'>
                         <div className='live-button'>Live</div></a></div>
@@ -344,6 +402,15 @@ Although my learning pace was irregular due to military service (1.5 years) and 
         <div className='holder-project-explanation'>
           <div className='title-project'>Calculator</div>
           <div className='ex-project'>Built a functional calculator using React and JavaScript, featuring real-time input display, operator validation, and error handling for invalid expressions.</div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Perform addition, subtraction, multiplication, and division.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Prevent invalid operations like division by zero or consecutive operators.</div>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><div>Simple and user-friendly layout for seamless calculations.</div>
+          </div>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://sean-calculator.netlify.app/'>
                         <div className='live-button'>Live</div></a></div>
@@ -360,13 +427,13 @@ Although my learning pace was irregular due to military service (1.5 years) and 
 
         
         <form onSubmit={onSubmit}>
-    <div className='contact-sentence' initial={{opacity: 0}}
+    <div ref={contact} className='contact-sentence' initial={{opacity: 0}}
         animate={{opacity:10}} transition={{duration: 0}}>
         <div className='holder-contact'>
           
-          <div className='name-contact'>Contact</div>
           <div className='flex-contact-whole'>
           <div className='flex-contact'>
+          <div className='name-contact'>Contact</div>
           <input  id="email"
         type="email" value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -377,9 +444,9 @@ Although my learning pace was irregular due to military service (1.5 years) and 
           className='content'></textarea>
           </div>
           <div className='finger'>
-          <button className='holder-check'>
-            <div className='check'></div>
-          </button>
+          <div className='holder-check'>
+            <button className='check'></button>
+          </div>
           </div>
           </div>
         </div>
@@ -393,9 +460,12 @@ Although my learning pace was irregular due to military service (1.5 years) and 
       </div>
       <div className='holder-bottom-section'>
       <div className='gray-text'>GENERAL</div>
-      <div className='bottom-section-word'>Home</div>
-      <div className='bottom-section-word'>About</div>
-      <div className='bottom-section-word'>Projects</div>
+      <div className='bottom-section-word' onClick={() => scrollToTop()}>Home</div>
+      <div className='bottom-section-word' onClick={() => scrollToSection(beyond)}>Beyond</div>
+      <div className='bottom-section-word' onClick={() => scrollToSection(tech)}>Tech</div>
+      <div className='bottom-section-word' onClick={() => scrollToSection(experiences)}>Experiences</div>
+      <div className='bottom-section-word' onClick={() => scrollToSection(projects)}>Projects</div>
+      <div className='bottom-section-word' onClick={() => scrollToSection(contact)}>Contact</div>
       
       </div>
       </div>
@@ -408,6 +478,7 @@ Although my learning pace was irregular due to military service (1.5 years) and 
       </div>
       </div>
     </bottom>
+    </div>
   </div>)}
 
 export default App;
