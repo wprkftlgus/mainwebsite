@@ -2077,5 +2077,461 @@ body {
   }
 }
 @media (max-width: 750px){
+  .top-menu-unit {
+    font-size: 0.7rem;
+    
+  }
 
+
+  .hi {
+    font-size: 1rem;
+  }
+  .about-title-myname {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  .flex-mynameandme {
+    gap: 1rem;
+  }
+  .me {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0;
+  }
+  .hand {
+    width: 15px;
+    height: 15px;
+    left: -9px;
+  }
+  .about-subtitle {
+    font-size: 0.8rem;
+  }
+  .myface {
+    width: 12rem;
+    height: 15rem;
+  }
+  .name-contact {
+    font-size: 30px;
+  }
+  .about-title {
+    margin-bottom: 7rem;
+  }
+  .about-title-line1 {
+    font-size: 1.5rem;
+  }
+  .about-title-line2 {
+    font-size: 1.2rem;
+    min-width: 8rem;
+  }
+  .about-title-line4 {
+    font-size: 2rem;
+    min-width: 9rem;
+  }
+  .about-title-beyond {
+    font-size: 1.2rem;
+    min-width: 9rem;
+  }
+  .about-title2-beyond {
+    font-size: 0.8rem;
+    margin-bottom: 5rem;
+    margin-top: 0;
+  }
+  .about-title-line3 {
+    font-size: 1.5rem;
+  }
+  .about-beyond-subtitleNumber {
+    font-size: 1rem;
+  }
+  .about-progressBar {
+    max-width: 170px;
+    height: 11px;
+  }
+  .about-subtitle-beyond {
+    font-size: 1.1rem;
+  }
+  .about-content-beyond {
+    font-size: 0.7rem;
+  }
+  .content {
+    min-width: 25rem;
+    font-size: 20px;
+  }
+  .about-techstacks-flex {
+    margin-top: 4rem;
+  }
+  .about-title-techstacks {
+    font-size: 1rem;
+  }
+  .holder-frontend-icons {
+    gap: 4px;
+    width: 157px;
+    grid-template-columns: 78px 78px;
+    grid-template-rows: 75px 75px;
+  }
+  .holder-backend-icons {
+    gap: 8px;
+    width: 230px;
+    grid-template-columns: 72px 72px 72px;
+    grid-template-rows: 72px 72px;
+  }
+  .holder-techAndTools-icons {
+    gap: 8px;
+    width: 236px;
+    grid-template-columns: 72px 72px 72px;
+    grid-template-rows: 72px 72px;
+  }
+  .about-holder-techtools {
+    margin-top: 10rem;
+  }
+  .about-holder-techstacks {
+    margin-bottom: 12rem;
+  }
+  .holder-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .title-icon {
+    font-size: 0.6rem;
+  }
+  .html {
+    width: 25px;
+    height: 25px;
+  }
+  .css {
+    width: 25px;
+    height: 25px;
+  }
+  .java {
+    width: 25px;
+    height: 25px;
+  }
+  .react {
+    width: 25px;
+    height: 25px;
+  }
+  .node {
+    width: 25px;
+    height: 25px;
+  }
+  .express {
+    width: 25px;
+    height: 25px;
+  }
+  .mongodb {
+    width: 25px;
+    height: 25px;
+  }
+  .render {
+    width: 25px;
+    height: 25px;
+  }
+  .restapi {
+    width: 25px;
+    height: 25px;
+  }
+  .router {
+    width: 25px;
+    height: 25px;
+  }
+  .jwt {
+    width: 25px;
+    height: 25px;
+  }
+  .vs {
+    width: 25px;
+    height: 25px;
+  }
+  .git {
+    width: 25px;
+    height: 25px;
+  }
+  .github {
+    width: 25px;
+    height: 25px;
+  }
+  .netlify {
+    width: 25px;
+    height: 25px;
+  }
+  .bootstrap {
+    width: 25px;
+    height: 25px;
+  }
+
+
+  .about-holder-content-experience {
+    margin-top: 1rem;
+  }
+  .about-container-experience {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .about-title-experience {
+    font-size: 1.1rem;
+  }
+  .about-date-experience {
+    font-size: 0.7rem;
+  }
+  .about-subtitle-experience {
+    font-size: 0.8rem;
+  }
+  .onair-red {
+    min-width: 0.3rem;
+    min-height: 0.3rem;
+  }
+  .onair {
+    min-width: 50px;
+    height: 50px;
+  }
+  .checked {
+    min-width: 50px;
+    height: 50px;
+  }
+  .about-line-experience {
+    width: 0.2rem;
+  }
+
+
+
+
+  .picture-project1 {
+    height: 25rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
+  .picture-project2 {
+    height: 25rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
+  .picture-project3 {
+    height: 25rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
+  .picture-project4 {
+    height: 25rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
+  .picture-project5 {
+    height: 25rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
+  .holder-project {
+    margin-bottom: 4rem;
+  }
+  .about-holder-title-line2 {
+    padding-bottom: 0;
+  }
+  .title-project {
+    font-size: 20px
+  }
+  .ex-project {
+    font-size: 0.7rem;
+  }
+  .star {
+    width: 10px;
+    height: 10px;
+  }
+  .starandsentence {
+    font-size: 0.7rem;
+    align-items: center;
+    margin-bottom: 0.1rem;
+  }
+  .backend-button {
+    font-size: 0.7rem;
+    padding: 0.3rem 0rem;
+    text-align: center;
+  }
+  .frontend-button {
+    font-size: 0.7rem;
+    padding: 0.3rem 0rem;
+    text-align: center;
+  }
+  .flex-liveandgit {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .holder-git-button {
+    padding: 0.3rem 1.8rem;
+  }
+  .git-button {
+    width: 18px;
+    height: 18px;
+    margin-left: 0.4rem;
+  }
+  .css-skill {
+    font-size: 7px;
+  }
+  .flex-project-skills-project1 {
+    gap: 0.3rem;
+    margin-bottom: 0rem;
+  }
+  .live-button {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+  .gitwebsite {
+    margin-bottom: 0;
+  }
+  .holder-project-skills-project2 {
+    gap: 0.5rem;
+    margin-bottom: 0;
+    height: 1.5rem;
+  }
+  .holder-project-skills-project3 {
+    gap: 0.5rem;
+    height: 1.2rem;
+  }
+  .holder-project-skills {
+    gap: 0.5rem;
+  }
+
+  
+
+  .holder-contact {
+    margin-top: 0;
+  }
+  .name-contact {
+    font-size: 20px;
+  }
+  .email {
+    width: 10rem;
+    font-size: 11px;
+  }
+  .content {
+    min-width: 15rem;
+    font-size: 12px;
+  }
+  .holder-check {
+    margin-left: 8rem;
+    margin-top: 5rem;
+  }
+  .check {
+    width: 25px;
+    height: 25px;
+  }
+  .finger {
+    margin-top: 0rem;
+    max-width: 18rem;
+    min-width: 18rem;
+    max-height: 10rem;
+    min-height: 10rem;
+  }
+
+  .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .mini-aboutme {
+    font-size: 0.6rem;
+    width: 7rem;
+  }
+  .gray-text {
+    font-size: 0.6rem;
+  }
+  .bottom-section-word {
+    font-size: 0.5rem;
+  }
+  .holder-bottom2 {
+    padding-left: 4rem;
+  }
+  .copyright {
+    font-size: 0.6rem;
+  }
+  .holder-icons {
+    gap: 0.5rem;
+  }
+  .bottom-github {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+  .bottom-indeed {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+  .bottom-linkedin {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+}
+@media (max-width: 700px){
+  .top-menu {
+    left: 22%;
+  }
+  .about-beyond-flex {
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 650px){
+  .myface {
+    width: 13rem;
+    height: 13rem;
+  }
+  .about-techstacks-flex {
+    display: block;
+  }
+  .about-holder-frontend {
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 600px){
+  .top-menu {
+    left: 18%;
+  }
+
+
+  .about-subtitle {
+    font-size: 0.6rem;
+  }
+  .picture-project1 {
+    height: 20rem;
+    max-width: 12rem;
+    min-width: 12rem;
+  }
+  .picture-project2 {
+    height: 20rem;
+    max-width: 12rem;
+    min-width: 12rem;
+  }
+  .picture-project3 {
+    height: 20rem;
+    max-width: 12rem;
+    min-width: 12rem;
+  }
+  .picture-project4 {
+    height: 20rem;
+    max-width: 12rem;
+    min-width: 12rem;
+  }
+  .picture-project5 {
+    height: 20rem;
+    max-width: 12rem;
+    min-width: 12rem;
+  }
+
+
+
+  .email {
+    width: 7rem;
+  }
+  .content {
+    min-width: 11rem;
+  }
+  .finger {
+    max-width: 14rem;
+    min-width: 14rem;
+  }
+  .holder-check {
+    margin-left: 6rem;
+    margin-top: 4rem;
+  }
+  .holder-bottom1 {
+    margin-bottom: 2rem;
+  }
+  .about-sentence2 {
+    padding-bottom: 1.5rem;
+  }
 }
