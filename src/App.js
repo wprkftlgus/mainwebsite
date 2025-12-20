@@ -259,8 +259,8 @@ Although my learning pace was irregular due to military service (1.5 years) and 
         <div className='project-sentence' initial={{opacity: 0}}
         animate={{opacity:1}} transition={{duration: 0}}>
         </div>
-        <div className='about-sentence'>
-        <div ref={projects} className='about-holder-title-line'>
+        <div className='about-sentence2'>
+        <div ref={projects} className='about-holder-title-line2'>
           <div className='line'></div>
           <div className='about-title-line1'>&lt;</div>
           <div className='about-title-line4'>Projects</div>
@@ -383,6 +383,10 @@ Although my learning pace was irregular due to military service (1.5 years) and 
           <div className='holder-project-skills-project3'>
             <div className='css-skill'>React</div>
             <div className='css-skill'>HTML</div>
+          </div>
+          </AnimationClone>
+          <AnimationClone>
+          <div className='holder-project-skills-project3'>
             <div className='css-skill'>CSS</div>
             <div className='css-skill'>JAVA</div>
             <div className='css-skill'>Three.js</div>
@@ -500,7 +504,7 @@ Although my learning pace was irregular due to military service (1.5 years) and 
       </div>
       </div>
       <div className='holder-bottom2'>
-      <div>© 2025 Jegal Sihyeon. All rights reserved</div>
+      <div className='copyright'>© 2025 Jegal Sihyeon. All rights reserved</div>
       <div className='holder-icons'>
       <a href='https://github.com/wprkftlgus' target='_blank'><div className='bottom-github'></div></a>
       <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='bottom-linkedin'></div></a>
