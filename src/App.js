@@ -104,13 +104,20 @@ function App() {
         <div className='about-title' initial={{opacity: 0}}
         animate={{opacity:1}} transition={{duration: 1.4, delay: 0.3}}>
           <div className='about-bug'></div>
-          <div>Hi, my name is</div>
+          <div className='flex-mynameandface'>
+          <div className='holder-aboutme'>
+          <div className='hi'>Hi, my name is</div>
+          <div className='flex-mynameandme'>
           <div className='about-title-myname'>Jegal Sihyeon</div>
+          <div className='me'><div className='hand'></div></div>
+          </div>
           <div className='about-subtitle'>I’m now determined to grow as a 
           <div className='about-letter-fullstack'>Full-Stack</div>developer.  
 I love building engaging and interactive web applications, and 
 I'm eager to bring fresh ideas and technical skills to every project I take on.</div>
-          <div className='me'><div className='hand'></div></div>
+          </div>
+          <div className='myface'></div>
+          </div>
         </div>
         <div ref={beyond} className='about-sentence'>
         
@@ -263,26 +270,30 @@ Although my learning pace was irregular due to military service (1.5 years) and 
         <div className='gap'></div>
         <div className='rab'>
         <div className='holder-project'>
-        <div className='picture-project1'></div>
+        <AnimationChildren><div className='picture-project1'></div></AnimationChildren>
         <div className='holder-project-explanation'>
-          <div className='title-project'>Loop Market</div>
-          <div className='ex-project'>Developed a second-hand marketplace application that allows users to create accounts, log in, upload their own listings, search for items, and interact through comments.</div>
+          <AnimationChildren><div className='title-project'>Loop Market</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>Developed a second-hand marketplace application that allows users to create accounts, log in, upload their own listings, search for items, and interact through comments.</div></AnimationChildren>
           <div className='starandsentence'>
-          <div className='star'></div><div>Sign up, log in, and access your personalized dashboard.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Sign up, log in, and access your personalized dashboard.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>Add, update, and delete content with intuitive controls.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Add, update, and delete content with intuitive controls.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>View and interact with feedback on your posts.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>View and interact with feedback on your posts.</div></AnimationChildren>
           </div>
+          <AnimationClone>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://mainresisterlogin.onrender.com'>
                         <div className='backend-button'>#Back-end</div></a>
                         <a id='live' target='_blank' href='https://mainresgisterlogin.netlify.app/'>
-                        <div className='frontend-button'>#Front-end</div></a></div>
+                        <div className='frontend-button'>#Front-end</div></a>
+          </div>
           <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/mainresisterlogin'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
           </div>
+          </AnimationClone>
+          <AnimationClone>
           <div className='holder-project-skills-project1'>
             <div className='flex-project-skills-project1'>
             <div className='css-skill'>Full-Stack</div>
@@ -303,62 +314,72 @@ Although my learning pace was irregular due to military service (1.5 years) and 
             <div className='css-skill'>Router</div>
             </div>
             </div>
+          </AnimationClone>
         </div>
         </div>
         </div>
 
         <div className='holder-project'>
-        <div className='picture-project2'></div>
+        <AnimationChildren><div className='picture-project2'></div></AnimationChildren>
         <div className='holder-project-explanation'>
-          <div className='title-project'>MyRecipe</div>
-          <div className='ex-project'>User can search the recipe of the food what they want, while showing all instructions and Youtube video as well!</div>
+          <AnimationChildren><div className='title-project'>MyRecipe</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>User can search the recipe of the food what they want, while showing all instructions and Youtube video as well!</div></AnimationChildren>
           <div className='starandsentence'>
-          <div className='star'></div><div>Find dishes quickly using API integration.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Find dishes quickly using API integration.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>View ingredients, cooking methods, and YouTube videos.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>View ingredients, cooking methods, and YouTube videos.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>Keep track of recipes for easy reference anytime.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>Keep track of recipes for easy reference anytime.</div></AnimationChildren>
           </div>
+          <AnimationClone>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://recipeapibysihyeon.netlify.app/'>
                         <div className='live-button'>Live</div></a></div>
           <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/RecipeAPI'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
           </div>
+          </AnimationClone>
+          <AnimationClone>
           <div className='holder-project-skills-project2'>
             <div className='css-skill'>React</div>
             <div className='css-skill'>HTML</div>
             <div className='css-skill'>CSS</div>
             </div>
+          </AnimationClone>
+          <AnimationClone>
             <div className='holder-project-skills-project2'>
             <div className='css-skill'>JAVA</div>
             <div className='css-skill'>RestAPI</div>
             <div className='css-skill'>Express</div>
             <div className='css-skill'>Router</div>
             </div>
+          </AnimationClone>
         </div>
         </div>
 
         <div className='holder-project'>
-        <div className='picture-project3'></div>
+        <AnimationChildren><div className='picture-project3'></div></AnimationChildren>
         <div className='holder-project-explanation'>
-          <div className='title-project'>The Space</div>
-          <div className='ex-project'>My main portfolio website inspired by Interstellar.</div>
+          <AnimationChildren><div className='title-project'>The Space</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>My main portfolio website inspired by Interstellar.</div></AnimationChildren>
           <div className='starandsentence'>
-          <div className='star'></div><div>Click on About, Project, or Contact to zoom in on planets.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Click on About, Project, or Contact to zoom in on planets.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>Watch planets respond as you move your mouse.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Watch planets respond as you move your mouse.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>Each planet displays information and details relevant to its section.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>Each planet displays information and details relevant to its section.</div></AnimationChildren>
           </div>
+          <AnimationClone>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://spacebysihyeon.netlify.app/'>
                         <div className='live-button'>Live</div></a></div>
           <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/portpolioMain'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
           </div>
+          </AnimationClone>
+          <AnimationClone>
           <div className='holder-project-skills-project3'>
             <div className='css-skill'>React</div>
             <div className='css-skill'>HTML</div>
@@ -366,62 +387,71 @@ Although my learning pace was irregular due to military service (1.5 years) and 
             <div className='css-skill'>JAVA</div>
             <div className='css-skill'>Three.js</div>
           </div>
+          </AnimationClone>
         </div>
         </div>
 
         <div className='holder-project'>
-        <div className='picture-project4'></div>
+        <AnimationChildren><div className='picture-project4'></div></AnimationChildren>
         <div className='holder-project-explanation'>
-          <div className='title-project'>SeanFlix</div>
-          <div className='ex-project'>Built a Netflix clone using React and styled-components, replicating the original platform’s design and interactivity. Features include responsive layout, video playback, animated sections, and collapsible FAQ interactions.</div>
+          <AnimationChildren><div className='title-project'>SeanFlix</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>Built a Netflix clone using React and styled-components, replicating the original platform’s design and interactivity. Features include responsive layout, video playback, animated sections, and collapsible FAQ interactions.</div></AnimationChildren>
           <div className='starandsentence'>
-          <div className='star'></div><div>Browse content with a fully responsive design.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Browse content with a fully responsive design.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>Click questions to reveal answers and toggle them off again.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Click questions to reveal answers and toggle them off again.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>Enjoy smooth navigation across devices of all sizes.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>Enjoy smooth navigation across devices of all sizes.</div></AnimationChildren>
           </div>
+          <AnimationClone>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://netflisclonebysihyeon.netlify.app/'>
                         <div className='live-button'>Live</div></a></div>
           <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/Netflix'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
           </div>
+          </AnimationClone>
+          <AnimationClone>
           <div className='holder-project-skills'>
             <div className='css-skill'>React</div>
             <div className='css-skill'>HTML</div>
             <div className='css-skill'>CSS</div>
             <div className='css-skill'>JAVA</div>
           </div>
+          </AnimationClone>
         </div>
         </div>
 
         <div className='holder-project'>
-        <div className='picture-project5'></div>
+        <AnimationChildren><div className='picture-project5'></div></AnimationChildren>
         <div className='holder-project-explanation'>
-          <div className='title-project'>Calculator</div>
-          <div className='ex-project'>Built a functional calculator using React and JavaScript, featuring real-time input display, operator validation, and error handling for invalid expressions.</div>
+          <AnimationChildren><div className='title-project'>Calculator</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>Built a functional calculator using React and JavaScript, featuring real-time input display, operator validation, and error handling for invalid expressions.</div></AnimationChildren>
           <div className='starandsentence'>
-          <div className='star'></div><div>Perform addition, subtraction, multiplication, and division.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Perform addition, subtraction, multiplication, and division.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>Prevent invalid operations like division by zero or consecutive operators.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Prevent invalid operations like division by zero or consecutive operators.</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><div>Simple and user-friendly layout for seamless calculations.</div>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>Simple and user-friendly layout for seamless calculations.</div></AnimationChildren>
           </div>
+          <AnimationClone>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://sean-calculator.netlify.app/'>
                         <div className='live-button'>Live</div></a></div>
           <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/Calculator'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
           </div>
+          </AnimationClone>
+          <AnimationClone>
           <div className='holder-project-skills'>
             <div className='css-skill'>React</div>
             <div className='css-skill'>HTML</div>
             <div className='css-skill'>CSS</div>
             <div className='css-skill'>JAVA</div>
           </div>
+          </AnimationClone>
         </div>
         </div>
 

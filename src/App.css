@@ -86,24 +86,54 @@ body {
   padding-top: 20px;
   cursor: pointer;
 }
+.hi {
+  opacity: 0;
+  animation: FadeInFromBottom 1s 0.2s forwards;
+}
+.flex-mynameandface {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.holder-aboutme {
+  max-width: 50rem;
+}
+.myface {
+  background-image: url('../public/picture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 24rem;
+  height: 38rem;
+  border-radius: 168px;
+  border: 3px solid #8213e2;
+  opacity: 0;
+  animation: FadeInFromRight 1s 0.5s forwards;
+}
+.flex-mynameandme {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
 .me {
   background-image: url('../public/hello.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
-  position: absolute;
-  left: 28rem;
-  top: 16.5rem;
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: FadeInFromRight 1s 1s forwards;
 }
 .hand {
   background-image: url('../public/waving-hand.png');
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  left: -28px;
   width: 50px;
   height: 50px;
-  position: absolute;
-  right: 80px;
   animation: hand 2s ease infinite;
 }
 .about-fold {
@@ -180,8 +210,8 @@ body {
 .about-title {
   font-size: 2rem;
   min-height: 20rem;
-  margin-top: 17rem;
-  margin-bottom: 20rem;
+  margin-top: 12rem;
+  margin-bottom: 15rem;
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -200,9 +230,13 @@ body {
   font-weight: 500;
   animation: colorchange 10s ease infinite;
   margin-bottom: 2rem;
+  opacity: 0;
+  animation: FadeInFromBottom 1s 0.4s forwards;
 }
 .about-subtitle {
   font-size: 1.2rem;
+  opacity: 0;
+  animation: FadeInFromBottom 1s 0.8s forwards;
 }
 .about-letter-fullstack {
   animation: colorchange 10s ease infinite;
@@ -699,7 +733,8 @@ body {
   text-align: left;
   font-size: 40px;
   font-weight: 700;
-  animation: colorchange 10s ease infinite;
+  opacity: 0;
+  animation: colorchange 10s ease infinite ,FadeInFromBottom 1s 0.2s forwards;
   margin-bottom: 0.5rem;
 }
 .rightsection-project1 {
@@ -801,6 +836,8 @@ body {
   justify-content: center;
   display: flex;
   gap: 2rem;
+  opacity: 0;
+  animation: FadeIn 1s 0.6s forwards;
 }
 .livewebsite {
   display: inline-block;
@@ -883,6 +920,8 @@ body {
   margin: 0 auto;
   max-width: 40rem;
   align-items: center;
+  opacity: 0;
+  animation: FadeIn 1s 0.7s forwards;
 }
 .flex-project-skills-project1 {
   display: flex;
@@ -899,6 +938,8 @@ body {
   height: 2rem;
   gap: 20px;
   align-items: center;
+  opacity: 0;
+  animation: FadeIn 1s 0.7s forwards;
 }
 .holder-project-skills-project3 {
   display: flex;
@@ -907,6 +948,8 @@ body {
   height: 2rem;
   gap: 20px;
   align-items: center;
+  opacity: 0;
+  animation: FadeIn 1s 0.7s forwards;
 }
 .holder-project-skills {
   display: flex;
@@ -915,6 +958,8 @@ body {
   height: 2rem;
   gap: 20px;
   align-items: center;
+  opacity: 0;
+  animation: FadeIn 1s 0.7s forwards;
 }
 .holder-contact {
   font-size: 20px;
@@ -1178,6 +1223,20 @@ body {
 .ex-project {
   margin-bottom: 1rem;
   font-size: 1.3rem;
+  opacity: 0;
+  animation: FadeInFromBottom 1s 0.3s forwards;
+}
+.subsubtitle-project1 {
+  opacity: 0;
+  animation: FadeInFromBottom 1s 0.4s forwards;
+}
+.subsubtitle-project2 {
+  opacity: 0;
+  animation: FadeInFromBottom 1s 0.5s forwards;
+}
+.subsubtitle-project3 {
+  opacity: 0;
+  animation: FadeInFromBottom 1s 0.6s forwards;
 }
 .gitwebsite {
   margin-bottom: 1rem;
@@ -1207,6 +1266,8 @@ body {
   height: 30rem;
   max-height: 30rem;
   cursor: pointer;
+  opacity: 0;
+  animation: FadeInFromLeft 1s 0.1s forwards;
 }
 .picture-project2 {
   background-image: url('../public/recipe.png');
@@ -1217,6 +1278,8 @@ body {
   height: 30rem;
   max-height: 30rem;
   cursor: pointer;
+  opacity: 0;
+  animation: FadeInFromLeft 1s 0.1s forwards;
 }
 .picture-project3 {
   background-image: url('../public/space.PNG');
@@ -1227,6 +1290,8 @@ body {
   height: 30rem;
   max-height: 30rem;
   cursor: pointer;
+  opacity: 0;
+  animation: FadeInFromLeft 1s 0.1s forwards;
 }
 .picture-project4 {
   background-image: url('../public/netflix.PNG');
@@ -1237,6 +1302,8 @@ body {
   height: 30rem;
   max-height: 30rem;
   cursor: pointer;
+  opacity: 0;
+  animation: FadeInFromLeft 1s 0.1s forwards;
 }
 .picture-project5 {
   background-image: url('../public/calculator.PNG');
@@ -1247,6 +1314,8 @@ body {
   height: 30rem;
   max-height: 30rem;
   cursor: pointer;
+  opacity: 0;
+  animation: FadeInFromLeft 1s 0.1s forwards;
 }
 .Body-title2 {
   font-size: 40px;
@@ -1267,6 +1336,7 @@ body {
   width: 4rem;
   height: 4rem;
   cursor: pointer;
+  animation: Floating 3s infinite;
 }
 .mini-aboutme {
   width: 14rem;
