@@ -17,6 +17,7 @@ body {
 }
 .top-menu {
   display: flex;
+  margin: 0 auto;
   gap: 1.3rem;
   background-color: rgb(124, 124, 124, 0.3);
   color: rgb(255, 255, 255, 0.5);
@@ -2109,6 +2110,7 @@ body {
   .myface {
     width: 12rem;
     height: 15rem;
+    border: 1px solid #8213e2;
   }
   .name-contact {
     font-size: 30px;
@@ -2138,6 +2140,10 @@ body {
   }
   .about-title-line3 {
     font-size: 1.5rem;
+  }
+  .about-title-line4 {
+    font-size: 1.2rem;
+    min-width: 6rem;
   }
   .about-beyond-subtitleNumber {
     font-size: 1rem;
@@ -2470,6 +2476,9 @@ body {
     width: 13rem;
     height: 13rem;
   }
+  .about-title-line2 {
+    padding-left: 0.5rem;
+  }
   .about-techstacks-flex {
     display: block;
   }
@@ -2533,5 +2542,389 @@ body {
   }
   .about-sentence2 {
     padding-bottom: 1.5rem;
+  }
+}
+@media (max-width: 550px){
+  .top-menu {
+    left: 14%;
+  }
+  .flex-mynameandface {
+    gap: 1rem;
+  }
+  .about-title-myname {
+    font-size: 1.2rem;
+  }
+  .about-subtitle {
+    font-size: 0.4rem;
+  }
+  .myface {
+    width: 17rem;
+  }
+  .about-title2-beyond {
+    font-size: 0.6rem;
+  }
+  .about-beyond-flex {
+    display: block;
+    padding-left: 0.5rem;
+  }
+  .about-beyond-component-flex {
+    margin-bottom: 3rem;
+  }
+  .about-content-beyond {
+    max-width: 15rem;
+  }
+  .about-subtitle-experience {
+    font-size: 0.6rem;
+  }
+
+
+
+  .holder-project {
+    display: block;
+    margin-bottom: 6rem;
+  }
+  .holder-project-explanation {
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .picture-project1 {
+    margin: 0 auto;
+    max-width: 18rem;
+    min-width: 18rem;
+    max-height: 12rem;
+  }
+  .picture-project2 {
+    margin: 0 auto;
+    max-width: 18rem;
+    min-width: 18rem;
+    max-height: 12rem;
+  }
+  .picture-project3 {
+    margin: 0 auto;
+    max-width: 18rem;
+    min-width: 18rem;
+    max-height: 12rem;
+  }
+  .picture-project4 {
+    margin: 0 auto;
+    max-width: 18rem;
+    min-width: 18rem;
+    max-height: 12rem;
+  }
+  .picture-project5 {
+    margin: 0 auto;
+    max-width: 18rem;
+    min-width: 18rem;
+    max-height: 12rem;
+  }
+  .holder-bottom1 {
+    padding: 1rem;
+  }
+  .holder-bottom2 {
+    padding-right: 5rem;
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 500px){
+  .top-menu {
+    padding: 0.6rem;
+    left: 18%;
+  }
+  .top-menu-unit {
+    font-size: 0.5rem;
+  }
+  .about-sentence {
+    padding: 2rem;
+  }
+  .about-holder-title-line2 {
+    padding: 2rem;
+  }
+  .email {
+    font-size: 8px;
+    width: 5rem;
+  }
+  .content {
+    font-size: 8px;
+    min-width: 8rem;
+    height: 16vh;
+  }
+  .name-contact {
+    font-size: 13px;
+  }
+  .finger {
+    max-width: 10rem;
+    min-width: 10rem;
+    margin-top: 5rem;
+  }
+  .holder-check {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .mini-aboutme {
+    font-size: 0.4rem;
+    width: 5rem;
+  }
+}
+@media (max-width: 450px){
+  .top-menu {
+    left: 15%;
+  }
+  .me {
+    width: 23px;
+    height: 23px;
+  }
+  .myface {
+    width: 12rem;
+    height: 9rem;
+  }
+  .about-title-experience {
+    font-size: 0.8rem;
+  }
+  .about-date-experience {
+    font-size: 0.5rem;
+  }
+  .about-subtitle-experience {
+    font-size: 0.5rem;
+  }
+  .about-holder-content-experience {
+    margin-left: 1.2rem;
+  }
+  .about-holder-contentAndIcon-experience {
+    gap: 1rem;
+  }
+  .holder-project-explanation {
+    width: 15rem;
+  }
+  .title-project {
+    font-size: 15px;
+  }
+  .ex-project {
+    font-size: 0.5rem;
+  }
+  .starandsentence {
+    font-size: 0.5rem;
+  }
+  .backend-button {
+    font-size: 0.5rem;
+    width: 5rem;
+  }
+  .frontend-button {
+    font-size: 0.5rem;
+    width: 5rem;
+  }
+  .holder-git-button {
+    padding: 0.3rem 1.3rem;
+  }
+  .git-button {
+    width: 12px;
+    height: 12px;
+    margin-left: 0.6rem;
+  }
+  .live-button {
+    font-size: 0.5rem;
+    padding: 0.35rem 2rem;
+  }
+  .css-skill {
+    font-size: 5px;
+    padding: 3px 10px;
+  }
+  .flex-project-skills-project1 {
+    gap: 0.1rem;
+  }
+  .holder-project-skills-project2 {
+    gap: 0.1rem;
+  }
+  .holder-project-skills-project3 {
+    gap: 0.1rem;
+  }
+  .holder-project-skills {
+    gap: 0.1rem;
+  }
+  .onair {
+    min-width: 30px;
+    height: 30px;
+  }
+  .checked {
+    min-width: 30px;
+    height: 30px;
+  }
+  .holder-bottom1 {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 420px){
+  .copyright {
+    padding-left: 0.5rem;
+  }
+  .holder-bottom2 {
+    padding-right: 3rem;
+  }
+  .bottom-github {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .bottom-indeed {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .bottom-linkedin {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}
+@media (max-width: 400px){
+  .top-menu {
+    left: 11%;
+  }
+  .about-title {
+    margin-bottom: 0;
+  }
+  .hi {
+    font-size: 0.7rem;
+  }
+  .about-title-myname {
+    font-size: 1rem;
+  }
+  .myface {
+    width: 10rem;
+    height: 7rem;
+  }
+  .about-beyond-flex {
+    padding-left: 0;
+  }
+  .about-beyond-holder {
+    margin-bottom: 10rem;
+  }
+  .html {
+    width: 18px;
+    height: 18px;
+  }
+  .css {
+    width: 18px;
+    height: 18px;
+  }
+  .java {
+    width: 18px;
+    height: 18px;
+  }
+  .react {
+    width: 18px;
+    height: 18px;
+  }
+  .node {
+    width: 18px;
+    height: 18px;
+  }
+  .express {
+    width: 18px;
+    height: 18px;
+  }
+  .mongodb {
+    width: 18px;
+    height: 18px;
+  }
+  .render {
+    width: 18px;
+    height: 18px;
+  }
+  .restapi {
+    width: 18px;
+    height: 18px;
+  }
+  .router {
+    width: 18px;
+    height: 18px;
+  }
+  .jwt {
+    width: 18px;
+    height: 18px;
+  }
+  .vs {
+    width: 18px;
+    height: 18px;
+  }
+  .git {
+    width: 18px;
+    height: 18px;
+  }
+  .github {
+    width: 18px;
+    height: 18px;
+  }
+  .netlify {
+    width: 18px;
+    height: 18px;
+  }
+  .bootstrap {
+    width: 18px;
+    height: 18px;
+  }
+  .holder-icon {
+    width: 37px;
+    height: 38px;
+  }
+  .title-icon {
+    font-size: 0.4rem;
+  }
+  .about-title-techstacks {
+    width: 100px;
+  }
+  .holder-frontend-icons {
+    width: 129px;
+    grid-template-columns: 64px 64px;
+    grid-template-rows: 64px 64px;
+  }
+  .holder-backend-icons {
+    width: 203px;
+    grid-template-columns: 62px 62px 62px;
+    grid-template-rows: 62px 62px;
+  }
+  .about-holder-techtools {
+    margin-top: 8rem;
+  }
+  .holder-techAndTools-icons {
+    width: 207px;
+    grid-template-columns: 62px 62px 62px;
+    grid-template-rows: 62px 62px;
+  }
+  .picture-project1 {
+    max-width: 16rem;
+    min-width: 16rem;
+    max-height: 11rem;
+  }
+  .picture-project2 {
+    max-width: 16rem;
+    min-width: 16rem;
+    max-height: 11rem;
+  }
+  .picture-project3 {
+    max-width: 16rem;
+    min-width: 16rem;
+    max-height: 11rem;
+  }
+  .picture-project4 {
+    max-width: 16rem;
+    min-width: 16rem;
+    max-height: 11rem;
+  }
+  .picture-project5 {
+    max-width: 16rem;
+    min-width: 16rem;
+    max-height: 11rem;
+  }
+}
+@media (max-width: 370px){
+  .top-menu {
+    left: 9%;
+  }
+}
+@media (max-width: 350px){
+  .top-menu {
+    left: 6%;
   }
 }
