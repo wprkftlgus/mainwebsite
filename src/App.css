@@ -1057,10 +1057,13 @@ body {
   background-size: cover;
   width: 40px;
   height: 40px;
-  filter: invert(0.7);
+  border-radius: 20rem;
+  box-shadow: -2px 1px 43px 7px rgba(184,0,250,1);
+  -webkit-box-shadow: -2px 1px 43px 7px rgba(184,0,250,1);
+  -moz-box-shadow: -2px 1px 43px 7px rgba(184,0,250,1);
 }
 .check:hover {
-  filter: invert(1);
+  filter: brightness(1.2);
 }
 .burger {
   display: none;
