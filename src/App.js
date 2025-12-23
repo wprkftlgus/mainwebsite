@@ -115,6 +115,11 @@ function App() {
           <div className='about-letter-fullstack'>Full-Stack</div>developer.  
 I love building engaging and interactive web applications, and 
 I'm eager to bring fresh ideas and technical skills to every project I take on.</div>
+          <div className='holder-topIcons'>
+          <a href='https://github.com/wprkftlgus' target='_blank'><div className='wrapper-nameAndIcon'><div className='bottom-github'></div></div></a>
+          <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='bottom-linkedin'></div></div></a>
+          <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='bottom-indeed'></div></div></a>
+          </div>
           </div>
           <div className='myface'></div>
           </div>
