@@ -284,6 +284,9 @@ Although my learning pace was irregular due to military service (1.5 years) and 
           <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>View and interact with feedback on your posts.</div></AnimationChildren>
           </div>
           <AnimationClone>
+          <div className='warning'>Please click the Back-end button and wait until the ‘Backend working…’ message appears. After that, click the Front-end button to explore my project.</div>
+          </AnimationClone>
+          <AnimationClone>
           <div className='flex-liveandgit'>
           <div className='livewebsite'><a id='live' target='_blank' href='https://mainresisterlogin.onrender.com'>
                         <div className='backend-button'>#Back-end</div></a>

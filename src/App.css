@@ -1280,6 +1280,12 @@ body {
   height: 20px;
   filter: invert(100%) sepia(100%) hue-rotate(270deg) saturate(300%);
 }
+.warning {
+  margin-top: 1rem;
+  opacity: 0;
+  animation: FadeInFromBottom 1s 0.65s forwards;
+  color: rgb(255, 54, 54);
+}
 .picture-project1 {
   background-image: url('../public/loopmarket-1.png');
   background-size: contain;
@@ -1966,6 +1972,9 @@ body {
     margin-bottom: 1.2rem;
     margin-top: 2rem;
   }
+  .warning {
+    font-size: 0.8rem;
+  }
   .holder-git-button {
     padding: 0.3rem 2rem;
   }
@@ -2344,6 +2353,9 @@ body {
     width: 10px;
     height: 10px;
   }
+  .warning {
+    font-size: 0.7rem;
+  }
   .starandsentence {
     font-size: 0.7rem;
     align-items: center;
@@ -2709,6 +2721,9 @@ body {
     font-size: 0.5rem;
   }
   .starandsentence {
+    font-size: 0.5rem;
+  }
+  .warning {
     font-size: 0.5rem;
   }
   .backend-button {
