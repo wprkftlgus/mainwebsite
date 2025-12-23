@@ -520,9 +520,9 @@ Gained hands-on experience through real-world teamwork and practical web develop
       <div className='holder-bottom2'>
       <div className='copyright'>© 2025 Jegal Sihyeon. All rights reserved</div>
       <div className='holder-icons'>
-      <a href='https://github.com/wprkftlgus' target='_blank'><div className='bottom-github'></div></a>
-      <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='bottom-linkedin'></div></a>
-      <div className='bottom-indeed'></div>
+      <a href='https://github.com/wprkftlgus' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>Github</div><div className='bottom-github'></div></div></a>
+      <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>linkedin</div><div className='bottom-linkedin'></div></div></a>
+      <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>Indeed</div><div className='bottom-indeed'></div></div></a>
       </div>
       </div>
     </bottom>
