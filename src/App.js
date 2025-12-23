@@ -228,6 +228,17 @@ Although my learning pace was irregular due to military service (1.5 years) and 
           </div>
           <div className='about-holder-contentAndIcon-experience'>
           <AnimationChildren ><div className='about-titleAndSubtitle-experience'>
+          <div className='about-title-experience'>💇🏻 Worked as the front-end developer on the Mezzanine Dermatology website, handling layout design and implementation.</div>
+          <div className='about-date-experience'>01/05/2024 ~ 01/12/2025</div>
+          <div className='about-subtitle-experience'>Worked part-time while attending school at a company in Gangnam District, Seoul, South Korea.
+Collaborated with another developer to learn and build the Mezzanine Dermatology website from scratch.
+Participated in the Front-end development process, including layout design and implementation.
+Gained hands-on experience through real-world teamwork and practical web development.</div>
+          </div></AnimationChildren>
+          <Animation><div className='checked'></div></Animation>
+          </div>
+          <div className='about-holder-contentAndIcon-experience'>
+          <AnimationChildren ><div className='about-titleAndSubtitle-experience'>
           <div className='about-title-experience'>🚢 Graduated with a Bachelor’s Degree in Naval Architecture and Ocean Engineering</div>
           <div className='about-date-experience'>01/03/2020 ~ 26/12/2025</div>
           <div className='about-subtitle-experience'>University of Ulsan, South Korea (4 years) Developed a strong foundation in problem-solving, analytical thinking, and system design through rigorous engineering 
