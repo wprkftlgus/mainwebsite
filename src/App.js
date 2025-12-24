@@ -201,6 +201,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
           <div className='about-title-techstacks'>Tech & Tools</div>
           <AnimationChildren>
           <div className='holder-techAndTools-icons'>
+          <AnimationClone><div className='holder-icon'><div className='aws'></div><div className='title-icon'>AWS</div></div></AnimationClone>  
           <AnimationClone><div className='holder-icon'><div className='vs'></div><div className='title-icon'>VS code</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='git'></div><div className='title-icon'>Git</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='github'></div><div className='title-icon'>Github</div></div></AnimationClone>
@@ -291,31 +292,31 @@ Gained hands-on experience through real-world teamwork and practical web develop
           <AnimationChildren><div className='title-project'>Loop Market</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>Developed a second-hand marketplace application that allows users to create accounts, log in, upload their own listings, search for items, and interact through comments.</div></AnimationChildren>
           <div className='starandsentence'>
-          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Sign up, log in, and access your personalized dashboard.</div></AnimationChildren>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project0'>Deployed and operated the backend server on AWS EC2 using Ubuntu, and managed the Node.js service with PM2 to ensure continuous availability</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Add, update, and delete content with intuitive controls.</div></AnimationChildren>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Handled image uploads by storing images in Base64 format within the database</div></AnimationChildren>
           </div>
           <div className='starandsentence'>
-          <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>View and interact with feedback on your posts.</div></AnimationChildren>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Sign up, log in, and access your personalized dashboard.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>Add, update, delete content with intuitive controls and view, interact with feedback on your posts.</div></AnimationChildren>
           </div>
           <AnimationClone>
           <div className='warning'>Please click the Back-end button and wait until the ‘Backend working…’ message appears. After that, click the Front-end button to explore my project.</div>
           </AnimationClone>
           <AnimationClone>
           <div className='flex-liveandgit'>
-          <div className='livewebsite'><a id='live' target='_blank' href='https://mainresisterlogin.onrender.com'>
-                        <div className='backend-button'>#Back-end</div></a>
-                        <a id='live' target='_blank' href='https://mainresgisterlogin.netlify.app/'>
-                        <div className='frontend-button'>#Front-end</div></a>
-          </div>
+            <div className='livewebsite'><a id='live' target='_blank' href='https://mainresgisterlogin.netlify.app/'>
+                        <div className='live-button'>Live</div></a></div>
           <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/mainresisterlogin'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
           </div>
           </AnimationClone>
           <AnimationClone>
           <div className='holder-project-skills-project1'>
             <div className='flex-project-skills-project1'>
-            <div className='css-skill'>Full-Stack</div>
+            <div className='css-skill'>AWS</div>
             <div className='css-skill'>React</div>
             <div className='css-skill'>HTML</div>
             <div className='css-skill'>CSS</div>
