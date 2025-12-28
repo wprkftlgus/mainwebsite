@@ -176,8 +176,8 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
           <AnimationClone><div className='holder-icon'><div className='html'></div><div className='title-icon'>HTML</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='css'></div><div className='title-icon'>CSS</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='java'></div><div className='title-icon'>JAVA</div></div></AnimationClone>
-          <AnimationClone><div className='holder-icon'><div className='react'></div><div className='title-icon'>React</div></div></AnimationClone>
-          
+          <AnimationClone><div className='holder-icon'><div className='tailwind'></div><div className='title-icon'>Tailwind CSS</div></div></AnimationClone>
+         
           </div>
           
         </div>
@@ -201,6 +201,8 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
           <div className='about-title-techstacks'>Tech & Tools</div>
           <AnimationChildren>
           <div className='holder-techAndTools-icons'>
+          <AnimationClone><div className='holder-icon'><div className='react'></div><div className='title-icon'>React</div></div></AnimationClone>
+          <AnimationClone><div className='holder-icon'><div className='vite'></div><div className='title-icon'>Vite</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='aws'></div><div className='title-icon'>AWS</div></div></AnimationClone>  
           <AnimationClone><div className='holder-icon'><div className='vs'></div><div className='title-icon'>VS code</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='git'></div><div className='title-icon'>Git</div></div></AnimationClone>
