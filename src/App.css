@@ -29,8 +29,6 @@ body {
   padding: 0.8rem;
   border-radius: 2rem;
   top: 1.2rem; 
-  opacity: 0;
-  animation: FadeInFromTop 1.5s forwards;
   filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.2))
           drop-shadow(0 0 40px rgba(255, 255, 255, 0.3));
 }
@@ -2124,9 +2122,7 @@ body {
   }
 }
 @media (max-width: 1000px){
-  .top-menu {
-    left: 28%;
-  }
+  
   .about-content-beyond {
     font-size: 0.8rem;
   }
@@ -2179,9 +2175,7 @@ body {
   }
 }
 @media (max-width: 850px){
-  .top-menu {
-    left: 24%;
-  }
+  
   .myface {
     width: 14rem;
     height: 20rem;
@@ -2597,9 +2591,7 @@ body {
   }
 }
 @media (max-width: 700px){
-  .top-menu {
-    left: 22%;
-  }
+  
   .about-beyond-flex {
     gap: 1.5rem;
   }
@@ -2620,10 +2612,7 @@ body {
   }
 }
 @media (max-width: 600px){
-  .top-menu {
-    left: 18%;
-  }
-
+  
   .holder-topIcons {
     gap: 0.7rem;
   }
@@ -2681,9 +2670,7 @@ body {
   }
 }
 @media (max-width: 550px){
-  .top-menu {
-    left: 14%;
-  }
+  
   .flex-mynameandface {
     gap: 1rem;
   }
@@ -2764,7 +2751,6 @@ body {
 @media (max-width: 500px){
   .top-menu {
     padding: 0.6rem;
-    left: 18%;
   }
   .top-menu-unit {
     font-size: 0.5rem;
@@ -2806,9 +2792,7 @@ body {
   }
 }
 @media (max-width: 450px){
-  .top-menu {
-    left: 15%;
-  }
+  
   .me {
     width: 23px;
     height: 23px;
@@ -2924,9 +2908,7 @@ body {
   }
 }
 @media (max-width: 400px){
-  .top-menu {
-    left: 11%;
-  }
+  
   .about-title {
     margin-bottom: 0;
   }
@@ -3074,15 +3056,5 @@ body {
     max-width: 16rem;
     min-width: 16rem;
     max-height: 11rem;
-  }
-}
-@media (max-width: 370px){
-  .top-menu {
-    left: 9%;
-  }
-}
-@media (max-width: 350px){
-  .top-menu {
-    left: 6%;
   }
 }
