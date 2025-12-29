@@ -17,7 +17,7 @@ body {
 }
 .top-menu {
   display: flex;
-  transform: translate(-50%, -50%);
+  left: 32%;
   margin: 0 auto;
   gap: 1.3rem;
   background-color: rgb(124, 124, 124, 0.3);
