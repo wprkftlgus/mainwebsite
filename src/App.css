@@ -17,7 +17,8 @@ body {
 }
 .top-menu {
   display: flex;
-  left: 32%;
+  left: 50%;
+  transform: translateX(-50%);
   margin: 0 auto;
   gap: 1.3rem;
   background-color: rgb(124, 124, 124, 0.3);
@@ -1721,9 +1722,7 @@ body {
   }
 }
 @media (max-width: 1360px){
-  .top-menu {
-    left: 32%;
-  }
+  
   .finger {
     max-width: 28rem;
     min-width: 28rem;
