@@ -17,6 +17,7 @@ body {
 }
 .top-menu {
   display: flex;
+  transform: translate(-50%, -50%);
   margin: 0 auto;
   gap: 1.3rem;
   background-color: rgb(124, 124, 124, 0.3);
@@ -27,7 +28,6 @@ body {
   padding: 0.8rem;
   border-radius: 2rem;
   top: 1.2rem; 
-  left: 37vw;
   opacity: 0;
   animation: FadeInFromTop 1.5s forwards;
   filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.2))
@@ -286,7 +286,7 @@ body {
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 12rem;
-  animation: FadeIn 2s forwards;
+  animation: FadeIn 1s forwards;
 }
 .about-beyond-holder {
   margin: 0 auto;
@@ -296,7 +296,7 @@ body {
 .about-beyond-flex {
   display: flex;
   gap: 5rem;
-  animation: FadeIn 4s forwards;
+  animation: FadeIn 2s forwards;
 }
 .about-beyond-component-flex {
   display: flex;
@@ -311,7 +311,7 @@ body {
   max-width: 230px;
   height: 20px;
   background: linear-gradient(135deg, #8e2de2, #4a00e0);
-  animation: bar 6s ease forwards;
+  animation: bar 4s ease forwards;
 }
 .about-subtitle-beyond {
   font-size: 1.8rem;
@@ -414,7 +414,7 @@ body {
   flex-direction: column;
   text-align: center;
   opacity: 0;
-  animation: FadeInFromBottom 0.5s ease-out forwards;
+  animation: FadeInFromBottom 0.3s ease-out forwards;
 }
 .holder-frontend-icons .holder-icon:nth-child(1) {
   animation-delay: 0s;
@@ -902,7 +902,7 @@ body {
   display: flex;
   gap: 2rem;
   opacity: 0;
-  animation: FadeIn 1s 0.6s forwards;
+  animation: FadeIn 1s 0.4s forwards;
 }
 .livewebsite {
   display: inline-block;
@@ -986,7 +986,7 @@ body {
   max-width: 40rem;
   align-items: center;
   opacity: 0;
-  animation: FadeIn 1s 0.7s forwards;
+  animation: FadeIn 1s 0.4s forwards;
 }
 .flex-project-skills-project1 {
   display: flex;
@@ -1004,7 +1004,7 @@ body {
   gap: 20px;
   align-items: center;
   opacity: 0;
-  animation: FadeIn 1s 0.7s forwards;
+  animation: FadeIn 1s 0.4s forwards;
 }
 .holder-project-skills-project3 {
   display: flex;
@@ -1015,7 +1015,7 @@ body {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  animation: FadeIn 1s 0.7s forwards;
+  animation: FadeIn 1s 0.4s forwards;
   margin-bottom: 0.5rem;
 }
 .holder-project-skills {
@@ -1027,7 +1027,7 @@ body {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  animation: FadeIn 1s 0.7s forwards;
+  animation: FadeIn 1s 0.4s forwards;
 }
 .holder-contact {
   font-size: 20px;
@@ -1355,7 +1355,7 @@ body {
   max-height: 30rem;
   cursor: pointer;
   opacity: 0;
-  animation: FadeInFromLeft 1s 0.1s forwards;
+  animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project2 {
   background-image: url('../public/recipe.png');
@@ -1367,7 +1367,7 @@ body {
   max-height: 30rem;
   cursor: pointer;
   opacity: 0;
-  animation: FadeInFromLeft 1s 0.1s forwards;
+  animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project3 {
   background-image: url('../public/space.PNG');
@@ -1379,7 +1379,7 @@ body {
   max-height: 30rem;
   cursor: pointer;
   opacity: 0;
-  animation: FadeInFromLeft 1s 0.1s forwards;
+  animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project4 {
   background-image: url('../public/netflix.PNG');
@@ -1391,7 +1391,7 @@ body {
   max-height: 30rem;
   cursor: pointer;
   opacity: 0;
-  animation: FadeInFromLeft 1s 0.1s forwards;
+  animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project5 {
   background-image: url('../public/calculator.PNG');
@@ -1403,7 +1403,7 @@ body {
   max-height: 30rem;
   cursor: pointer;
   opacity: 0;
-  animation: FadeInFromLeft 1s 0.1s forwards;
+  animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .Body-title2 {
   font-size: 40px;
@@ -1587,7 +1587,7 @@ body {
 @keyframes FadeInFromLeft {
   0% {
     opacity: 0;
-    transform: translateX(-30px);
+    transform: translateX(-20px);
   }
   100% {
     opacity: 1;
