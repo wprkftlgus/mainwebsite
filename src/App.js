@@ -420,8 +420,37 @@ Gained hands-on experience through real-world teamwork and practical web develop
         <div className='holder-project'>
         <AnimationChildren><div className='picture-project4'></div></AnimationChildren>
         <div className='holder-project-explanation'>
+          <AnimationChildren><div className='title-project'>SeanApple</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>Built a Apple-Clone website using Vite and TailwindCSS, replicating the original platform’s design and interactivity. Features include responsive layout, animated sections, and a fixed, scroll-following background that blurs dynamically as the user scrolls.</div></AnimationChildren>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Browse content with a fully responsive design.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Animated content appears on scroll, fully responsive and interactive.</div></AnimationChildren>
+          </div>
+          <AnimationClone>
+          <div className='flex-liveandgit'>
+          <div className='livewebsite'><a id='live' target='_blank' href='https://tailwindpracticebysihyeon.netlify.app/'>
+                        <div className='live-button'>Live</div></a></div>
+          <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/TailwindPractice'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
+          </div>
+          </AnimationClone>
+          <AnimationClone>
+          <div className='holder-project-skills'>
+            <div className='css-skill'>Vite</div>
+            <div className='css-skill'>HTML</div>
+            <div className='css-skill'>TailwindCSS</div>
+            <div className='css-skill'>JAVA</div>
+          </div>
+          </AnimationClone>
+        </div>
+        </div>
+
+        <div className='holder-project'>
+        <AnimationChildren><div className='picture-project5'></div></AnimationChildren>
+        <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'>SeanFlix</div></AnimationChildren>
-          <AnimationChildren><div className='ex-project'>Built a Netflix clone using React and styled-components, replicating the original platform’s design and interactivity. Features include responsive layout, video playback, animated sections, and collapsible FAQ interactions.</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>Built a Netflix-Clone website using React and styled-components, replicating the original platform’s design and interactivity. Features include responsive layout, video playback, animated sections, and collapsible FAQ interactions.</div></AnimationChildren>
           <div className='starandsentence'>
           <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Browse content with a fully responsive design.</div></AnimationChildren>
           </div>
@@ -450,7 +479,7 @@ Gained hands-on experience through real-world teamwork and practical web develop
         </div>
 
         <div className='holder-project'>
-        <AnimationChildren><div className='picture-project5'></div></AnimationChildren>
+        <AnimationChildren><div className='picture-project6'></div></AnimationChildren>
         <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'>Calculator</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>Built a functional calculator using React and JavaScript, featuring real-time input display, operator validation, and error handling for invalid expressions.</div></AnimationChildren>
