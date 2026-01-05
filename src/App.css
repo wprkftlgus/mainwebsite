@@ -241,6 +241,7 @@ body {
 }
 .about-letter-fullstack {
   animation: colorchange 10s ease infinite;
+  font-size: 2rem;
   font-weight: 500;
   display: inline-block;
   padding-right: 0.5rem;
@@ -1789,6 +1790,9 @@ body {
   .about-subtitle {
     font-size: 1rem;
   }
+  .about-letter-fullstack {
+    font-size: 1.5rem;
+  }
   .myface {
     width: 16rem;
     height: 26rem;
@@ -2207,6 +2211,10 @@ body {
   .about-beyond-holder {
     width: 88%;
   }
+  .about-letter-fullstack {
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+  }
 }
 @media (max-width: 750px){
   .top-menu-unit {
@@ -2237,6 +2245,9 @@ body {
   }
   .about-subtitle {
     font-size: 0.8rem;
+  }
+  .about-letter-fullstack {
+    font-size: 1.3rem;
   }
   .myface {
     width: 12rem;
@@ -2649,6 +2660,9 @@ body {
   .about-subtitle {
     font-size: 0.6rem;
   }
+  .about-letter-fullstack {
+    font-size: 0.9rem;
+  }
   .picture-project1 {
     height: 20rem;
     max-width: 12rem;
@@ -2712,6 +2726,9 @@ body {
   }
   .about-subtitle {
     font-size: 0.5rem;
+  }
+  .about-letter-fullstack {
+    font-size: 0.8rem;
   }
   .myface {
     width: 17rem;
@@ -2843,6 +2860,9 @@ body {
   .about-title-experience {
     font-size: 0.8rem;
   }
+  .about-letter-fullstack {
+    font-size: 0.7rem;
+  }
   .about-date-experience {
     font-size: 0.5rem;
   }
@@ -2922,6 +2942,9 @@ body {
 @media (max-width: 420px){
   .about-subtitle {
     font-size: 0.4rem;
+  }
+  .about-letter-fullstack {
+    font-size: 0.6rem;
   }
   .holder-topIcons {
     gap: 0.4rem;
