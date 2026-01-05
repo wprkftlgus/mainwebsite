@@ -384,7 +384,7 @@ Gained hands-on experience through real-world teamwork and practical web develop
         <AnimationChildren><div className='picture-project3'></div></AnimationChildren>
         <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'>The Space</div></AnimationChildren>
-          <AnimationChildren><div className='ex-project'>My main portfolio website inspired by Interstellar.</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>My previous portfolio website inspired by Interstellar.</div></AnimationChildren>
           <div className='starandsentence'>
           <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Click on About, Project, or Contact to zoom in on planets.</div></AnimationChildren>
           </div>
