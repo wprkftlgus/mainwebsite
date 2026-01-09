@@ -263,6 +263,18 @@ body {
 .holder-topIcons .bottom-indeed {
   animation: Bulk 0.5s 2.0s;
 }
+.holder-topIcons .CV {
+  animation: Bulk 0.5s 2.1s;
+}
+.CV {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+.CV:hover {
+  transform: scale(1.2);
+}
 .about-sentence {
   padding-top: 15px;
   padding: 4rem;
@@ -1797,6 +1809,9 @@ body {
     width: 16rem;
     height: 26rem;
   }
+  .CV {
+    font-size: 1.2rem;
+  }
   .name-contact {
     font-size: 30px;
   }
@@ -2253,6 +2268,9 @@ body {
     width: 12rem;
     height: 15rem;
     border: 1px solid #8213e2;
+  }
+  .CV {
+    font-size: 0.8rem;
   }
   .name-contact {
     font-size: 30px;
@@ -2948,6 +2966,9 @@ body {
   }
   .holder-topIcons {
     gap: 0.4rem;
+  }
+  .CV {
+    font-size: 0.6rem;
   }
 
   .copyright {
