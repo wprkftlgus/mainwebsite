@@ -194,6 +194,8 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
           <AnimationClone><div className='holder-icon'><div className='restapi'></div><div className='title-icon'>RestAPI</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='router'></div><div className='title-icon'>Router</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='jwt'></div><div className='title-icon'>JWT</div></div></AnimationClone>
+          <AnimationClone><div className='holder-icon'><div className='cookie'></div><div className='title-icon'>Cookie</div></div></AnimationClone>
+          <AnimationClone><div className='holder-icon'><div className='mysql'></div><div className='title-icon'>MySQL</div></div></AnimationClone>
         </div>
         </AnimationChildren>
         </div>
@@ -210,6 +212,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
           <AnimationClone><div className='holder-icon'><div className='github'></div><div className='title-icon'>Github</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='netlify'></div><div className='title-icon'>Netlify</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='bootstrap'></div><div className='title-icon'>Bootstrap</div></div></AnimationClone>
+          <AnimationClone><div className='holder-icon'><div className='docker'></div><div className='title-icon'>Docker</div></div></AnimationClone>
           </div>
           </AnimationChildren>
         </div>
@@ -384,6 +387,38 @@ Gained hands-on experience through real-world teamwork and practical web develop
         <div className='holder-project'>
         <AnimationChildren><div className='picture-project3'></div></AnimationChildren>
         <div className='holder-project-explanation'>
+          <AnimationChildren><div className='title-project'>Portfolio</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>I built a responsive, interactive personal portfolio website featuring smooth animations and intuitive sliding navigation that lets users explore projects, LinkedIn, GitHub, and CV sections seamlessly in one place.</div></AnimationChildren>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Smooth sliding transitions make it easy to jump between sections.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Users can view all project details, links, and resources at a glance.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project3'>Fully responsive design ensures an optimal experience across devices.</div></AnimationChildren>
+          </div>
+          <AnimationClone>
+          <div className='flex-liveandgit'>
+          <div className='livewebsite'><a id='live' target='_blank' href='https://jegalsihyeon.netlify.app/'>
+                        <div className='live-button'>Live</div></a></div>
+          <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/mainwebsite'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
+          </div>
+          </AnimationClone>
+          <AnimationClone>
+            <div className='holder-project-skills'>
+            <div className='css-skill'>React</div>
+            <div className='css-skill'>HTML</div>
+            <div className='css-skill'>CSS</div>
+            <div className='css-skill'>JAVA</div>
+          </div>
+          </AnimationClone>
+        </div>
+        </div>
+
+        <div className='holder-project'>
+        <AnimationChildren><div className='picture-project4'></div></AnimationChildren>
+        <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'>The Space</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>My previous portfolio website inspired by Interstellar.</div></AnimationChildren>
           <div className='starandsentence'>
@@ -419,7 +454,7 @@ Gained hands-on experience through real-world teamwork and practical web develop
         </div>
 
         <div className='holder-project'>
-        <AnimationChildren><div className='picture-project4'></div></AnimationChildren>
+        <AnimationChildren><div className='picture-project5'></div></AnimationChildren>
         <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'>SeanApple</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>Built a Apple-Clone website using Vite and TailwindCSS, replicating the original platform’s design and interactivity. Features include responsive layout, animated sections, and a fixed, scroll-following background that blurs dynamically as the user scrolls.</div></AnimationChildren>
@@ -448,7 +483,7 @@ Gained hands-on experience through real-world teamwork and practical web develop
         </div>
 
         <div className='holder-project'>
-        <AnimationChildren><div className='picture-project5'></div></AnimationChildren>
+        <AnimationChildren><div className='picture-project6'></div></AnimationChildren>
         <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'>SeanFlix</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>Built a Netflix-Clone website using React and styled-components, replicating the original platform’s design and interactivity. Features include responsive layout, video playback, animated sections, and collapsible FAQ interactions.</div></AnimationChildren>
@@ -480,7 +515,7 @@ Gained hands-on experience through real-world teamwork and practical web develop
         </div>
 
         <div className='holder-project'>
-        <AnimationChildren><div className='picture-project6'></div></AnimationChildren>
+        <AnimationChildren><div className='picture-project7'></div></AnimationChildren>
         <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'>Calculator</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>Built a functional calculator using React and JavaScript, featuring real-time input display, operator validation, and error handling for invalid expressions.</div></AnimationChildren>
@@ -561,7 +596,7 @@ Gained hands-on experience through real-world teamwork and practical web develop
       <a href='https://github.com/wprkftlgus' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>Github</div><div className='bottom-github'></div></div></a>
       <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>linkedin</div><div className='bottom-linkedin'></div></div></a>
       <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>Indeed</div><div className='bottom-indeed'></div></div></a>
-      <a href="/SihyeonFinalCV.pdf" target='_blank' className='CV'>CV</a>
+      <a href="/SihyeonFinalCV.pdf" target='_blank' className='CV'><div className='wrapper-nameAndIcon'>CV</div></a>
       </div>
       </div>
     </bottom>

@@ -461,6 +461,12 @@ body {
 .holder-backend-icons .holder-icon:nth-child(7) {
   animation-delay: 2.0s;
 }
+.holder-backend-icons .holder-icon:nth-child(8) {
+  animation-delay: 2.2s;
+}
+.holder-backend-icons .holder-icon:nth-child(9) {
+  animation-delay: 2.4s;
+}
 .holder-techAndTools-icons .holder-icon:nth-child(1) {
   animation-delay: 0s;
 }
@@ -484,6 +490,9 @@ body {
 }
 .holder-techAndTools-icons .holder-icon:nth-child(8) {
   animation-delay: 1.4s;
+}
+.holder-techAndTools-icons .holder-icon:nth-child(9) {
+  animation-delay: 1.6s;
 }
 .holder-icon:hover {
   transform: scale(1.05);
@@ -605,6 +614,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.cookie {
+  margin: 0 auto;
+  background-image: url('../public/cookie.png');
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mysql {
+  margin: 0 auto;
+  background-image: url('../public/mysql.png');
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .about-holder-techtools {
   margin-top: 15rem;
 }
@@ -660,6 +685,14 @@ body {
 .bootstrap {
   margin: 0 auto;
   background-image: url('../public/bootstrap.png');
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.docker {
+  margin: 0 auto;
+  background-image: url('../public/docker.png');
   width: 60px;
   height: 60px;
   background-repeat: no-repeat;
@@ -1382,7 +1415,7 @@ body {
   animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project3 {
-  background-image: url('../public/space.PNG');
+  background-image: url('../public/mainwebsite.png');
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 35rem;
@@ -1394,7 +1427,7 @@ body {
   animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project4 {
-  background-image: url('../public/apple.png');
+  background-image: url('../public/space.PNG');
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 35rem;
@@ -1406,7 +1439,7 @@ body {
   animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project5 {
-  background-image: url('../public/netflix.PNG');
+  background-image: url('../public/apple.png');
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 35rem;
@@ -1418,6 +1451,18 @@ body {
   animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project6 {
+  background-image: url('../public/netflix.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 35rem;
+  min-width: 35rem;
+  height: 30rem;
+  max-height: 30rem;
+  cursor: pointer;
+  opacity: 0;
+  animation: FadeInFromLeft 0.5s 0.1s forwards;
+}
+.picture-project7 {
   background-image: url('../public/calculator.PNG');
   background-size: contain;
   background-repeat: no-repeat;
@@ -1926,6 +1971,14 @@ body {
     width: 40px;
     height: 40px;
   }
+  .cookie {
+    width: 40px;
+    height: 40px;
+  }
+  .mysql {
+    width: 40px;
+    height: 40px;
+  }
   .vite {
     width: 40px;
     height: 40px;
@@ -1951,6 +2004,10 @@ body {
     height: 40px;
   }
   .bootstrap {
+    width: 40px;
+    height: 40px;
+  }
+  .docker {
     width: 40px;
     height: 40px;
   }
@@ -2407,6 +2464,14 @@ body {
     width: 25px;
     height: 25px;
   }
+  .cookie {
+    width: 25px;
+    height: 25px;
+  }
+  .mysql {
+    width: 25px;
+    height: 25px;
+  }
   .vite {
     width: 25px;
     height: 25px;
@@ -2435,7 +2500,10 @@ body {
     width: 25px;
     height: 25px;
   }
-
+  .docker {
+    width: 25px;
+    height: 25px;
+  }
 
   .about-holder-content-experience {
     margin-top: 1rem;
@@ -3059,6 +3127,14 @@ body {
     width: 18px;
     height: 18px;
   }
+  .cookie {
+    width: 18px;
+    height: 18px;
+  }
+  .mysql {
+    width: 18px;
+    height: 18px;
+  }
   .vite {
     width: 18px;
     height: 18px;
@@ -3084,6 +3160,10 @@ body {
     height: 18px;
   }
   .bootstrap {
+    width: 18px;
+    height: 18px;
+  }
+  .docker {
     width: 18px;
     height: 18px;
   }
