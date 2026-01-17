@@ -1792,6 +1792,10 @@ body {
     max-width: 25rem;
     min-width: 25rem;
   }
+  .picture-project7 {
+    max-width: 25rem;
+    min-width: 25rem;
+  }
 }
 @media (max-width: 1360px){
   
@@ -2216,6 +2220,10 @@ body {
     max-width: 20rem;
     min-width: 20rem;
   }
+  .picture-project7 {
+    max-width: 20rem;
+    min-width: 20rem;
+  }
 }
 @media (max-width: 1000px){
   
@@ -2270,6 +2278,10 @@ body {
     min-width: 17rem;
   }
   .picture-project6 {
+    max-width: 17rem;
+    min-width: 17rem;
+  }
+  .picture-project7 {
     max-width: 17rem;
     min-width: 17rem;
   }
@@ -2570,6 +2582,11 @@ body {
     max-width: 15rem;
     min-width: 15rem;
   }
+  .picture-project7 {
+    height: 25rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
   .holder-project {
     margin-bottom: 4rem;
   }
@@ -2779,7 +2796,11 @@ body {
     max-width: 12rem;
     min-width: 12rem;
   }
-
+  .picture-project7 {
+    height: 20rem;
+    max-width: 12rem;
+    min-width: 12rem;
+  }
 
   .email {
     width: 7rem;
@@ -2877,6 +2898,12 @@ body {
     max-height: 12rem;
   }
   .picture-project6 {
+    margin: 0 auto;
+    max-width: 18rem;
+    min-width: 18rem;
+    max-height: 12rem;
+  }
+  .picture-project7 {
     margin: 0 auto;
     max-width: 18rem;
     min-width: 18rem;
@@ -3221,6 +3248,11 @@ body {
     max-height: 11rem;
   }
   .picture-project6 {
+    max-width: 16rem;
+    min-width: 16rem;
+    max-height: 11rem;
+  }
+  .picture-project7 {
     max-width: 16rem;
     min-width: 16rem;
     max-height: 11rem;
