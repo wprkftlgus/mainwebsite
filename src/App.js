@@ -548,8 +548,12 @@ Gained hands-on experience through real-world teamwork and practical web develop
           </AnimationClone>
         </div>
         </div>
+        <div className='holder-react-bottomAndsentences'>
+        <div className='react-bottom'></div>
+        <div className='title-inspire'>Get In Touch</div>
+        <div className='subtitle-inspire'>Let's create something amazing together. I'm always excited to connect with fellow developers and potential collaborators.</div>
+        </div>
 
-        
         <form onSubmit={onSubmit}>
     <div ref={contact} className='contact-sentence' initial={{opacity: 0}}
         animate={{opacity:10}} transition={{duration: 0}}>

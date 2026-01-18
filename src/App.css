@@ -1074,9 +1074,39 @@ body {
   opacity: 0;
   animation: FadeIn 1s 0.4s forwards;
 }
+.holder-react-bottomAndsentences {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+  margin-top: 15rem;
+  filter:
+  drop-shadow(0 0 8px rgba(255,255,255,0.1))
+  drop-shadow(0 0 20px rgba(255,255,255,0.2))
+  drop-shadow(0 0 40px rgba(255,255,255,0.2));
+}
+.react-bottom {
+  margin: 0 auto;
+  background-image: url('../public/react.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  filter: invert(1);
+  animation: Rotate 4s linear infinite;
+}
+.title-inspire {
+  margin: 0 auto;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.subtitle-inspire {
+  font-size: 1.5rem;
+  color: rgb(212, 209, 223);
+}
+
 .holder-contact {
   font-size: 20px;
-  margin-top: 6rem;
+  margin-top: 10rem;
   margin-bottom: 5rem;
   background: rgba(0, 0, 0, 0.85);
   border-radius: 50px;
@@ -1744,6 +1774,17 @@ body {
     opacity: 0.65;
   }
 }
+@keyframes Rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @keyframes hand {
   0% {
     transform: rotate(15deg);
@@ -2102,7 +2143,19 @@ body {
     gap: 0.5rem;
   }
 
-
+  .holder-react-bottomAndsentences {
+    width: 700px;
+  }
+  .react-bottom {
+    width: 60px;
+    height: 60px;
+  }
+  .title-inspire {
+    font-size: 2rem;
+  }
+  .subtitle-inspire {
+    font-size: 1.2rem;
+  }
 
   .icon {
     width: 3rem;
@@ -2661,6 +2714,23 @@ body {
   }
 
   
+  .holder-react-bottomAndsentences {
+    width: 480px;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+  }
+  .react-bottom {
+    width: 40px;
+    height: 40px;
+  }
+  .title-inspire {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .subtitle-inspire {
+    font-size: 0.8rem;
+  }
+
 
   .holder-contact {
     margin-top: 0;
@@ -2802,6 +2872,23 @@ body {
     min-width: 12rem;
   }
 
+  .holder-react-bottomAndsentences {
+    width: 400px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .react-bottom {
+    width: 40px;
+    height: 40px;
+  }
+  .title-inspire {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .subtitle-inspire {
+    font-size: 0.8rem;
+  }
+
   .email {
     width: 7rem;
   }
@@ -2930,6 +3017,24 @@ body {
   .about-holder-title-line2 {
     padding: 2rem;
   }
+
+  .holder-react-bottomAndsentences {
+    width: 320px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .react-bottom {
+    width: 30px;
+    height: 30px;
+  }
+  .title-inspire {
+    font-size: 1rem;
+    padding-bottom: 0.2rem;
+  }
+  .subtitle-inspire {
+    font-size: 0.6rem;
+  }
+
   .email {
     font-size: 8px;
     width: 5rem;
