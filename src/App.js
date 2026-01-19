@@ -119,7 +119,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
           <a href='https://github.com/wprkftlgus' target='_blank'><div className='wrapper-nameAndIcon'><div className='bottom-github'></div></div></a>
           <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='bottom-linkedin'></div></div></a>
           <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='bottom-indeed'></div></div></a>
-          <a href="/SihyeonFinalCV.pdf" target='_blank' className='CV'>CV</a>
+          <a href="/SihyeonCV.pdf" target='_blank' className='CV'>CV</a>
           </div>
           </div>
           <div className='myface'></div>
@@ -603,7 +603,7 @@ Gained hands-on experience through real-world teamwork and practical web develop
       <a href='https://github.com/wprkftlgus' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>Github</div><div className='bottom-github'></div></div></a>
       <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>linkedin</div><div className='bottom-linkedin'></div></div></a>
       <a href='https://www.linkedin.com/in/sihyeon-jegal-a4bbaa360' target='_blank'><div className='wrapper-nameAndIcon'><div className='hiddenname'>Indeed</div><div className='bottom-indeed'></div></div></a>
-      <a href="/SihyeonFinalCV.pdf" target='_blank' className='CV'><div className='wrapper-nameAndIcon'>CV</div></a>
+      <a href="/SihyeonCV.pdf" target='_blank' className='CV'><div className='wrapper-nameAndIcon'>CV</div></a>
       </div>
       </div>
     </bottom>
