@@ -296,6 +296,8 @@ Gained hands-on experience through real-world teamwork and practical web develop
         <div className='holder-project'>
         <AnimationChildren><div className='picture-project0'></div></AnimationChildren>
         <div className='holder-project-explanation'>
+          <AnimationChildren><div className='title-project'></div></AnimationChildren>
+          <AnimationChildren><div className='in-progress'>In progress</div></AnimationChildren>
           <AnimationChildren><div className='title-project'>Sihyeonzon</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>Developed a fully functional, Amazon-inspired all-in-one SaaS marketplace website entirely on my own, featuring secure user authentication, product management, cart functionality, and a desktop-oriented frontend built with TypeScript, while handling backend deployment, cloud infrastructure, and automated CI/CD to deliver a complete end-to-end full-stack solution.</div></AnimationChildren>
           <div className='starandsentence'>

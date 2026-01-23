@@ -1371,6 +1371,11 @@ body {
   gap: 5vw;
   margin-bottom: 10rem;
 }
+.in-progress {
+  opacity: 0;
+  font-size: 1.2rem;
+  animation: colorchangeRed 5s infinite, FadeInFromBottom 1s 0.1s forwards;
+}
 .ex-project {
   margin-bottom: 1rem;
   font-size: 1.3rem;
@@ -1628,6 +1633,13 @@ body {
   50%  { color: #b57edc; } 
   75%  { color: #6a0dad; } 
   100% { color: #a020f0; } 
+}
+@keyframes colorchangeRed {
+  0%   { color: #ff4d4d; }  
+  25%  { color: #ff6666; }  
+  50%  { color: #ff1a1a; }  
+  75%  { color: #cc0000; }  
+  100% { color: #ff4d4d; }  
 }
 @keyframes Floating {
   0% {
@@ -2108,7 +2120,9 @@ body {
     width: 0.3rem;
   }
 
-
+  .in-progress {
+    font-size: 1rem;
+  }
   .title-project {
     font-size: 30px
   }
@@ -2685,6 +2699,9 @@ body {
   .about-holder-title-line2 {
     padding-bottom: 0;
   }
+  .in-progress {
+    font-size: 0.7rem;
+  }
   .title-project {
     font-size: 20px
   }
@@ -3145,6 +3162,9 @@ body {
   }
   .holder-project-explanation {
     width: 15rem;
+  }
+  .in-progress {
+    font-size: 0.5rem;
   }
   .title-project {
     font-size: 15px;
