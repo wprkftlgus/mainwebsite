@@ -1,5 +1,5 @@
-import React, {useRef ,useState, useEffect, cloneElement } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import {useRef ,useState, useEffect, cloneElement } from 'react';
+import { useForm } from '@formspree/react';
 import './App.css';
 
 function App() {
@@ -177,6 +177,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
           <AnimationClone><div className='holder-icon'><div className='html'></div><div className='title-icon'>HTML</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='css'></div><div className='title-icon'>CSS</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='java'></div><div className='title-icon'>JAVA</div></div></AnimationClone>
+          <AnimationClone><div className='holder-icon'><div className='typescript'></div><div className='title-icon'>Typescript</div></div></AnimationClone>
           <AnimationClone><div className='holder-icon'><div className='tailwind'></div><div className='title-icon'>Tailwind CSS</div></div></AnimationClone>
          
           </div>
@@ -292,6 +293,77 @@ Gained hands-on experience through real-world teamwork and practical web develop
         </div>
         <div className='gap'></div>
 
+        <div className='holder-project'>
+        <AnimationChildren><div className='picture-project0'></div></AnimationChildren>
+        <div className='holder-project-explanation'>
+          <AnimationChildren><div className='title-project'>Sihyeonzon</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>Developed a fully functional, Amazon-inspired all-in-one SaaS marketplace website entirely on my own, featuring secure user authentication, product management, cart functionality, and a desktop-oriented frontend built with TypeScript, while handling backend deployment, cloud infrastructure, and automated CI/CD to deliver a complete end-to-end full-stack solution.</div></AnimationChildren>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Implemented JWT, cookies, and bcrypt for secure signup and login, with MySQL supporting post creation, editing, deletion, and robust search functionality.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Managed the backend on AWS EC2 with Node.js, Express.js, PM2, S3 for image storage, RDS, IAM, SSH, Nginx, and Certbot SSL certificates, ensuring continuous availability and HTTPS security.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Built the frontend with TypeScript, Vite, and Tailwind CSS for a clean, desktop-focused user interface.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Set up CI/CD pipelines using GitHub Actions to automate deployments and streamline updates.</div></AnimationChildren>
+          </div>
+          <AnimationClone>
+          <div className='flex-liveandgit'>
+          <div className='livewebsite'><a id='live' target='_blank' href='https://sihyeonzon.online/'>
+                        <div className='live-button'>Live</div></a></div>
+          <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/Sihyeonzon'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
+          </div>
+          </AnimationClone>
+          <AnimationClone>
+          <div className='holder-project-skills-project1'>
+  <div className='flex-project-skills-project1'>
+    <div className='css-skill'>AWS</div>
+    <div className='css-skill'>EC2</div>
+    <div className='css-skill'>PM2</div>
+    <div className='css-skill'>S3</div>
+   </div>
+   <div className='flex-project-skills-project1'>
+    <div className='css-skill'>RDS</div>
+    <div className='css-skill'>IAM</div>
+    <div className='css-skill'>SSH</div>
+    <div className='css-skill'>Nginx</div>
+   </div>
+   <div className='flex-project-skills-project1'>
+    <div className='css-skill'>Certbot</div>
+    <div className='css-skill'>Hostinger</div>
+    <div className='css-skill'>TypeScript</div>
+    <div className='css-skill'>Vite</div>
+    </div>
+    <div className='flex-project-skills-project1'>
+    <div className='css-skill'>Tailwind CSS</div>
+    <div className='css-skill'>HTML</div>
+    <div className='css-skill'>CSS</div>
+    <div className='css-skill'>Node.js</div>
+    </div>
+    <div className='flex-project-skills-project1'>
+    <div className='css-skill'>Express.js</div>
+    <div className='css-skill'>MySQL</div>
+    <div className='css-skill'>JWT</div>
+    <div className='css-skill'>bcrypt</div>
+  </div>
+  <div className='flex-project-skills-project1'>
+    <div className='css-skill'>REST API</div>
+    <div className='css-skill'>Router</div>
+    <div className='css-skill'>GitHub Actions</div>
+  </div>
+  <div className='flex-project-skills-project1'>
+    <div className='css-skill'>CI/CD</div>
+    <div className='css-skill'>Netlify</div>
+  </div>
+</div>
+
+          </AnimationClone>
+        </div>
+        </div>
+        
         <div className='holder-project'>
         <AnimationChildren><div className='picture-project5'></div></AnimationChildren>
         <div className='holder-project-explanation'>

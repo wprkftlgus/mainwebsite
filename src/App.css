@@ -206,9 +206,6 @@ body {
   overflow-x: hidden;
   font-family: "Lexend", sans-serif;
 }
-.about-sentence-group::-webkit-scrollbar {
-  
-}
 .about-title {
   font-size: 2rem;
   min-height: 20rem;
@@ -407,11 +404,11 @@ body {
   gap: 38px;
 }
 .holder-frontend-icons {
-  width: 260px;
+  width: 409px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 100px 100px; 
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
   gap: 38px;
 }
 .holder-icon {
@@ -530,6 +527,14 @@ body {
 .java {
   margin: 0 auto;
   background-image: url('../public/js.png');
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.typescript {
+  margin: 0 auto;
+  background-image: url('../public/typescript.png');
   width: 60px;
   height: 60px;
   background-repeat: no-repeat;
@@ -792,9 +797,6 @@ body {
   list-style: none;
   padding-left: 0;
 }
-.skills-units:hover {
-  
-}
 .holder-projects {
   align-items: center;
   display: flex;
@@ -982,6 +984,7 @@ body {
 }
 
 .css-skill {
+  text-align: center;
   font-size: 16px;
   background-color: rgb(70, 68, 57);
   border: 1px solid transparent;
@@ -1358,12 +1361,9 @@ body {
   background-color:rgb(83, 80, 77);
   height: 700px;
 }
-.rab {
-  
-}
 .holder-project {
   display: flex;
-  max-width: 65vw;
+  max-width: 66vw;
   margin: 0 auto;
   gap: 5vw;
   margin-bottom: 10rem;
@@ -1419,6 +1419,18 @@ body {
   display: none;
   animation: FadeInFromBottom 1s 0.65s forwards;
   color: rgb(255, 54, 54);
+}
+.picture-project0 {
+  background-image: url('../public/sihyeonzon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 35rem;
+  min-width: 35rem;
+  height: 30rem;
+  max-height: 30rem;
+  cursor: pointer;
+  opacity: 0;
+  animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
 .picture-project1 {
   background-image: url('../public/loopmarket-1.png');
@@ -1809,6 +1821,10 @@ body {
     }
 }
 @media (max-width: 1360px){
+  .picture-project0 {
+    max-width: 25rem;
+    min-width: 25rem;
+  }
   .picture-project1 {
     max-width: 25rem;
     min-width: 25rem;
@@ -1950,7 +1966,7 @@ body {
   }
   .holder-frontend-icons {
     gap: 8px;
-    width: 200px;
+    width: 305px;
   }
   .holder-backend-icons {
     gap: 8px;
@@ -1976,6 +1992,10 @@ body {
     height: 40px;
   }
   .java {
+    width: 40px;
+    height: 40px;
+  }
+  .typescript {
     width: 40px;
     height: 40px;
   }
@@ -2249,6 +2269,10 @@ body {
   .about-subtitle {
     max-width: 30rem;
   }
+  .picture-project0 {
+    max-width: 20rem;
+    min-width: 20rem;
+  }
   .picture-project1 {
     max-width: 20rem;
     min-width: 20rem;
@@ -2309,6 +2333,10 @@ body {
 @media (max-width: 900px){
   .holder-project {
     max-width: 75vw;
+  }
+  .picture-project0 {
+    max-width: 17rem;
+    min-width: 17rem;
   }
   .picture-project1 {
     max-width: 17rem;
@@ -2451,10 +2479,10 @@ body {
     font-size: 1rem;
   }
   .holder-frontend-icons {
-    gap: 4px;
-    width: 157px;
-    grid-template-columns: 78px 78px;
-    grid-template-rows: 75px 75px;
+    gap: 8px;
+    width: 230px;
+    grid-template-columns: 72px 72px 72px;
+    grid-template-rows: 72px 72px;
   }
   .holder-backend-icons {
     gap: 8px;
@@ -2490,6 +2518,10 @@ body {
     height: 25px;
   }
   .java {
+    width: 25px;
+    height: 25px;
+  }
+  .typescript {
     width: 25px;
     height: 25px;
   }
@@ -2604,7 +2636,11 @@ body {
 
 
 
-
+  .picture-project0 {
+    height: 25rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
   .picture-project1 {
     height: 25rem;
     max-width: 15rem;
@@ -2836,6 +2872,11 @@ body {
   .about-letter-fullstack {
     font-size: 0.9rem;
   }
+  .picture-project0 {
+    height: 20rem;
+    max-width: 12rem;
+    min-width: 12rem;
+  }
   .picture-project1 {
     height: 20rem;
     max-width: 12rem;
@@ -2953,6 +2994,12 @@ body {
   .holder-project-explanation {
     width: 20rem;
     margin: 0 auto;
+  }
+  .picture-project0 {
+    margin: 0 auto;
+    max-width: 18rem;
+    min-width: 18rem;
+    max-height: 12rem;
   }
   .picture-project1 {
     margin: 0 auto;
@@ -3223,6 +3270,10 @@ body {
     width: 18px;
     height: 18px;
   }
+  .typescript {
+    width: 18px;
+    height: 18px;
+  }
   .tailwind {
     width: 23px;
     height: 23px;
@@ -3310,9 +3361,9 @@ body {
     width: 100px;
   }
   .holder-frontend-icons {
-    width: 129px;
-    grid-template-columns: 64px 64px;
-    grid-template-rows: 64px 64px;
+    width: 203px;
+    grid-template-columns: 62px 62px 62px;
+    grid-template-rows: 62px 62px;
   }
   .holder-backend-icons {
     width: 203px;
@@ -3326,6 +3377,11 @@ body {
     width: 207px;
     grid-template-columns: 62px 62px 62px;
     grid-template-rows: 62px 62px;
+  }
+  .picture-project0 {
+    max-width: 16rem;
+    min-width: 16rem;
+    max-height: 11rem;
   }
   .picture-project1 {
     max-width: 16rem;
