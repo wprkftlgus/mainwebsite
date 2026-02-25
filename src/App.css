@@ -116,7 +116,6 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 1rem;
 }
 .me {
   background-image: url('../public/hello.png');
@@ -124,7 +123,6 @@ body {
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
-  margin-bottom: 2rem;
   opacity: 0;
   animation: FadeInFromRight 1s 1s forwards;
 }
@@ -208,9 +206,8 @@ body {
 }
 .about-title {
   font-size: 2rem;
-  min-height: 20rem;
+  min-height: 100vh;
   margin-top: 12rem;
-  margin-bottom: 15rem;
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -228,7 +225,6 @@ body {
   font-size: 3rem;
   font-weight: 500;
   animation: colorchange 10s ease infinite, FadeInFromBottom 1s 0.4s forwards;
-  margin-bottom: 2rem;
   opacity: 0;
 }
 .about-subtitle {
@@ -273,7 +269,6 @@ body {
   transform: scale(1.2);
 }
 .about-sentence {
-  padding-top: 15px;
   padding: 4rem;
 }
 .about-sentence2 {
@@ -299,7 +294,7 @@ body {
 }
 .about-beyond-holder {
   margin: 0 auto;
-  width: 67%;
+  width: 95%;
   margin-bottom: 18rem;
 }
 .about-beyond-flex {
@@ -1565,7 +1560,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-left: 2rem;
-  padding-right: 10rem;
+  padding-right: 5rem;
   align-items: center;
 }
 .holder-icons {
@@ -1745,7 +1740,7 @@ body {
     height: 0;
   }
   100% {
-    height: 50rem;
+    height: 60rem;
   }
 }
 @keyframes onAir {
@@ -1903,10 +1898,10 @@ body {
 
 
   .hi {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
   .about-title-myname {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   .flex-mynameandme {
     gap: 1rem;
@@ -1914,6 +1909,7 @@ body {
   .me {
     width: 50px;
     height: 50px;
+    margin-bottom: 1rem;
   }
   .hand {
     width: 25px;
@@ -2208,9 +2204,6 @@ body {
   .bottom-section-word {
     font-size: 0.7rem;
   }
-  .holder-bottom2 {
-    padding-left: 5rem;
-  }
   .copyright {
     font-size: 0.8rem;
   }
@@ -2322,7 +2315,7 @@ body {
 @media (max-width: 1000px){
   
   .about-content-beyond {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .finger {
     max-width: 20rem;
@@ -2342,9 +2335,6 @@ body {
     width: 3rem;
     margin-left: 8rem;
     margin-top: 5rem;
-  }
-  .about-beyond-holder {
-    width: 78%;
   }
 }
 @media (max-width: 900px){
@@ -2390,12 +2380,17 @@ body {
     width: 14rem;
     height: 20rem;
   }
-  .about-beyond-holder {
-    width: 88%;
-  }
   .about-letter-fullstack {
     padding-right: 0.2rem;
     padding-left: 0.2rem;
+  }
+}
+@media (max-width: 800px){
+  .about-sentence {
+    padding: 2rem;
+  }
+  .about-holder-title-line2 {
+    padding: 2rem;
   }
 }
 @media (max-width: 750px){
@@ -2403,17 +2398,20 @@ body {
     font-size: 0.7rem;
     
   }
-
+  .flex-mynameandface {
+    gap: 3rem;
+  }
 
   .hi {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .about-title-myname {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 0;
   }
   .flex-mynameandme {
     gap: 1rem;
+    margin-bottom: 1rem;
   }
   .me {
     width: 35px;
@@ -2424,9 +2422,6 @@ body {
     width: 15px;
     height: 15px;
     left: -9px;
-  }
-  .about-subtitle {
-    font-size: 0.8rem;
   }
   .about-letter-fullstack {
     font-size: 1.3rem;
@@ -2441,9 +2436,6 @@ body {
   }
   .name-contact {
     font-size: 30px;
-  }
-  .about-title {
-    margin-bottom: 7rem;
   }
   .about-title-line1 {
     font-size: 1.5rem;
@@ -2461,7 +2453,6 @@ body {
     min-width: 9rem;
   }
   .about-title2-beyond {
-    font-size: 0.8rem;
     margin-bottom: 5rem;
     margin-top: 0;
   }
@@ -2481,9 +2472,6 @@ body {
   }
   .about-subtitle-beyond {
     font-size: 1.1rem;
-  }
-  .about-content-beyond {
-    font-size: 0.7rem;
   }
   .content {
     min-width: 25rem;
@@ -2817,41 +2805,15 @@ body {
     max-height: 10rem;
     min-height: 10rem;
   }
-
-  .icon {
-    width: 2rem;
-    height: 2rem;
-  }
-  .mini-aboutme {
-    font-size: 0.6rem;
-    width: 7rem;
-  }
-  .gray-text {
-    font-size: 0.6rem;
-  }
-  .bottom-section-word {
-    font-size: 0.5rem;
-  }
-  .holder-bottom2 {
-    padding-left: 4rem;
+  .holder-bottom1 {
+    padding: 0;
+    padding-top: 1rem;
   }
   .copyright {
     font-size: 0.6rem;
   }
   .holder-icons {
     gap: 0.5rem;
-  }
-  .bottom-github {
-    width: 1.1rem;
-    height: 1.1rem;
-  }
-  .bottom-indeed {
-    width: 1.1rem;
-    height: 1.1rem;
-  }
-  .bottom-linkedin {
-    width: 1.1rem;
-    height: 1.1rem;
   }
   .hiddenname {
     font-size: 0.5rem;
@@ -2881,16 +2843,16 @@ body {
   }
 }
 @media (max-width: 600px){
-  
+  .about-title {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
   .holder-topIcons {
     gap: 0.7rem;
   }
 
   .about-subtitle {
-    font-size: 0.6rem;
-  }
-  .about-letter-fullstack {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .picture-project0 {
     height: 20rem;
@@ -2976,20 +2938,8 @@ body {
   .flex-mynameandface {
     gap: 1rem;
   }
-  .about-title-myname {
-    font-size: 1.2rem;
-  }
-  .about-subtitle {
-    font-size: 0.5rem;
-  }
-  .about-letter-fullstack {
-    font-size: 0.8rem;
-  }
   .myface {
-    width: 17rem;
-  }
-  .about-title2-beyond {
-    font-size: 0.6rem;
+    width: 15rem;
   }
   .about-beyond-flex {
     display: block;
@@ -3010,58 +2960,51 @@ body {
   .holder-project {
     display: block;
     margin-bottom: 6rem;
+    max-width: 100%;
   }
   .holder-project-explanation {
-    width: 20rem;
+    width: 25rem;
     margin: 0 auto;
   }
   .picture-project0 {
     margin: 0 auto;
-    max-width: 18rem;
-    min-width: 18rem;
-    max-height: 12rem;
+    max-width: 24rem;
+    max-height: 14rem;
   }
   .picture-project1 {
     margin: 0 auto;
-    max-width: 18rem;
-    min-width: 18rem;
-    max-height: 12rem;
+    max-width: 24rem;
+    max-height: 14rem;
   }
   .picture-project2 {
     margin: 0 auto;
-    max-width: 18rem;
-    min-width: 18rem;
-    max-height: 12rem;
+    max-width: 24rem;
+    max-height: 14rem;
   }
   .picture-project3 {
     margin: 0 auto;
-    max-width: 18rem;
-    min-width: 18rem;
-    max-height: 12rem;
+    max-width: 24rem;
+    max-height: 14rem;
   }
   .picture-project4 {
     margin: 0 auto;
-    max-width: 18rem;
-    min-width: 18rem;
-    max-height: 12rem;
+    max-width: 24rem;
+    max-height: 14rem;
   }
   .picture-project5 {
     margin: 0 auto;
-    max-width: 18rem;
-    min-width: 18rem;
-    max-height: 12rem;
+    max-width: 24rem;
+    max-height: 14rem;
   }
   .picture-project6 {
     margin: 0 auto;
-    max-width: 18rem;
-    min-width: 18rem;
-    max-height: 12rem;
+    max-width: 24rem;
+    max-height: 14rem;
   }
   .picture-project7 {
     margin: 0 auto;
-    max-width: 18rem;
-    min-width: 18rem;
-    max-height: 12rem;
+    max-width: 24rem;
+    max-height: 14rem;
   }
   .holder-bottom1 {
     padding: 1rem;
@@ -3073,13 +3016,11 @@ body {
 }
 @media (max-width: 500px){
   .top-menu {
-    padding: 0.6rem;
+    gap: 1rem;
   }
-  .top-menu-unit {
-    font-size: 0.5rem;
-  }
+  
   .about-sentence {
-    padding: 2rem;
+    padding: 1rem;
   }
   .about-holder-title-line2 {
     padding: 2rem;
@@ -3090,29 +3031,15 @@ body {
     margin-top: 10rem;
     margin-bottom: 10rem;
   }
-  .react-bottom {
-    width: 30px;
-    height: 30px;
+  .holder-project-explanation {
+    width: 23rem;
   }
-  .title-inspire {
-    font-size: 1rem;
-    padding-bottom: 0.2rem;
-  }
-  .subtitle-inspire {
-    font-size: 0.6rem;
-  }
-
   .email {
-    font-size: 8px;
     width: 5rem;
   }
   .content {
-    font-size: 8px;
-    min-width: 8rem;
+    min-width: 9rem;
     height: 16vh;
-  }
-  .name-contact {
-    font-size: 13px;
   }
   .finger {
     max-width: 10rem;
@@ -3123,58 +3050,20 @@ body {
     margin-left: 4rem;
     margin-top: 2rem;
   }
-  .icon {
-    width: 1rem;
-    height: 1rem;
-  }
-  .mini-aboutme {
-    font-size: 0.4rem;
-    width: 5rem;
-  }
 }
 @media (max-width: 450px){
+
+  .about-title-myname {
+    font-size: 1.2rem;
+  }
   
-  .me {
-    width: 23px;
-    height: 23px;
-  }
-  .myface {
-    width: 12rem;
-    height: 9rem;
-  }
-  .about-title-experience {
-    font-size: 0.8rem;
-  }
-  .about-letter-fullstack {
-    font-size: 0.7rem;
-  }
-  .about-date-experience {
-    font-size: 0.5rem;
-  }
-  .about-subtitle-experience {
-    font-size: 0.5rem;
-  }
   .about-holder-content-experience {
     margin-left: 1.2rem;
   }
   .about-holder-contentAndIcon-experience {
     gap: 1rem;
   }
-  .holder-project-explanation {
-    width: 15rem;
-  }
-  .in-progress {
-    font-size: 0.5rem;
-  }
-  .title-project {
-    font-size: 15px;
-  }
-  .ex-project {
-    font-size: 0.5rem;
-  }
-  .starandsentence {
-    font-size: 0.5rem;
-  }
+  
   .warning {
     font-size: 0.5rem;
   }
@@ -3186,34 +3075,8 @@ body {
     font-size: 0.5rem;
     width: 5rem;
   }
-  .holder-git-button {
-    padding: 0.3rem 1.3rem;
-  }
-  .git-button {
-    width: 12px;
-    height: 12px;
-    margin-left: 0.6rem;
-  }
-  .live-button {
-    font-size: 0.5rem;
-    padding: 0.35rem 2rem;
-  }
-  .css-skill {
-    font-size: 5px;
-    padding: 3px 10px;
-  }
-  .flex-project-skills-project1 {
-    gap: 0.1rem;
-  }
-  .holder-project-skills-project2 {
-    gap: 0.1rem;
-  }
-  .holder-project-skills-project3 {
-    gap: 0.1rem;
-  }
-  .holder-project-skills {
-    gap: 0.1rem;
-  }
+
+  
   .onair {
     min-width: 30px;
     height: 30px;
@@ -3228,18 +3091,6 @@ body {
   }
 }
 @media (max-width: 420px){
-  .about-subtitle {
-    font-size: 0.4rem;
-  }
-  .about-letter-fullstack {
-    font-size: 0.6rem;
-  }
-  .holder-topIcons {
-    gap: 0.4rem;
-  }
-  .CV {
-    font-size: 0.6rem;
-  }
 
   .copyright {
     padding-left: 0.5rem;
@@ -3247,33 +3098,11 @@ body {
   .holder-bottom2 {
     padding-right: 3rem;
   }
-  .bottom-github {
-    width: 0.8rem;
-    height: 0.8rem;
-  }
-  .bottom-indeed {
-    width: 0.8rem;
-    height: 0.8rem;
-  }
-  .bottom-linkedin {
-    width: 0.8rem;
-    height: 0.8rem;
-  }
 }
 @media (max-width: 400px){
   
   .about-title {
     margin-bottom: 0;
-  }
-  .hi {
-    font-size: 0.7rem;
-  }
-  .about-title-myname {
-    font-size: 1rem;
-  }
-  .myface {
-    width: 10rem;
-    height: 7rem;
   }
   .about-beyond-flex {
     padding-left: 0;
@@ -3281,164 +3110,42 @@ body {
   .about-beyond-holder {
     margin-bottom: 10rem;
   }
-  .html {
-    width: 18px;
-    height: 18px;
-  }
-  .css {
-    width: 18px;
-    height: 18px;
-  }
-  .java {
-    width: 18px;
-    height: 18px;
-  }
-  .typescript {
-    width: 18px;
-    height: 18px;
-  }
-  .tailwind {
-    width: 23px;
-    height: 23px;
-  }
-  .react {
-    width: 18px;
-    height: 18px;
-  }
-  .node {
-    width: 18px;
-    height: 18px;
-  }
-  .express {
-    width: 18px;
-    height: 18px;
-  }
-  .mongodb {
-    width: 18px;
-    height: 18px;
-  }
-  .render {
-    width: 18px;
-    height: 18px;
-  }
-  .restapi {
-    width: 18px;
-    height: 18px;
-  }
-  .router {
-    width: 18px;
-    height: 18px;
-  }
-  .jwt {
-    width: 18px;
-    height: 18px;
-  }
-  .cookie {
-    width: 18px;
-    height: 18px;
-  }
-  .mysql {
-    width: 18px;
-    height: 18px;
-  }
-  .vite {
-    width: 18px;
-    height: 18px;
-  }
-  .aws {
-    width: 18px;
-    height: 18px;
-  }
-  .vs {
-    width: 18px;
-    height: 18px;
-  }
-  .git {
-    width: 18px;
-    height: 18px;
-  }
-  .github {
-    width: 18px;
-    height: 18px;
-  }
-  .netlify {
-    width: 18px;
-    height: 18px;
-  }
-  .bootstrap {
-    width: 18px;
-    height: 18px;
-  }
-  .docker {
-    width: 18px;
-    height: 18px;
-  }
-  .holder-icon {
-    width: 37px;
-    height: 38px;
-  }
-  .title-icon {
-    font-size: 0.4rem;
-  }
   .about-title-techstacks {
     width: 100px;
   }
-  .holder-frontend-icons {
-    width: 203px;
-    grid-template-columns: 62px 62px 62px;
-    grid-template-rows: 62px 62px;
-  }
-  .holder-backend-icons {
-    width: 203px;
-    grid-template-columns: 62px 62px 62px;
-    grid-template-rows: 62px 62px;
-  }
-  .about-holder-techtools {
-    margin-top: 8rem;
-  }
-  .holder-techAndTools-icons {
-    width: 207px;
-    grid-template-columns: 62px 62px 62px;
-    grid-template-rows: 62px 62px;
+  .holder-project-explanation {
+    width: 20rem;
   }
   .picture-project0 {
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 11rem;
+    max-width: 20rem;
+    max-height: 13rem;
   }
   .picture-project1 {
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 11rem;
+    max-width: 20rem;
+    max-height: 13rem;
   }
   .picture-project2 {
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 11rem;
+    max-width: 20rem;
+    max-height: 13rem;
   }
   .picture-project3 {
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 11rem;
+    max-width: 20rem;
+    max-height: 13rem;
   }
   .picture-project4 {
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 11rem;
+    max-width: 20rem;
+    max-height: 13rem;
   }
   .picture-project5 {
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 11rem;
+    max-width: 20rem;
+    max-height: 13rem;
   }
   .picture-project6 {
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 11rem;
+    max-width: 20rem;
+    max-height: 13rem;
   }
   .picture-project7 {
-    max-width: 16rem;
-    min-width: 16rem;
-    max-height: 11rem;
+    max-width: 20rem;
+    max-height: 13rem;
   }
 }
