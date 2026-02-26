@@ -97,8 +97,8 @@ function App() {
         <div className='top-menu-unit' onClick={() => scrollToTop()}>Home</div>
         <div className='top-menu-unit' onClick={() => scrollToSection(beyond)}>Beyond</div>
         <div className='top-menu-unit' onClick={() => scrollToSection(tech)}>Tech</div>
-        <div className='top-menu-unit' onClick={() => scrollToSection(experiences)}>Experiences</div>
         <div className='top-menu-unit' onClick={() => scrollToSection(projects)}>Projects</div>
+        <div className='top-menu-unit' onClick={() => scrollToSection(experiences)}>Experiences</div>
         <div className='top-menu-unit' onClick={() => scrollToSection(contact)}>Contact</div>
       </div>
         <div className='about-title' initial={{opacity: 0}}
@@ -668,8 +668,8 @@ Gained hands-on experience through real-world teamwork and practical web develop
       <div className='bottom-section-word' onClick={() => scrollToTop()}>Home</div>
       <div className='bottom-section-word' onClick={() => scrollToSection(beyond)}>Beyond</div>
       <div className='bottom-section-word' onClick={() => scrollToSection(tech)}>Tech</div>
-      <div className='bottom-section-word' onClick={() => scrollToSection(experiences)}>Experiences</div>
       <div className='bottom-section-word' onClick={() => scrollToSection(projects)}>Projects</div>
+      <div className='bottom-section-word' onClick={() => scrollToSection(experiences)}>Experiences</div>
       <div className='bottom-section-word' onClick={() => scrollToSection(contact)}>Contact</div>
       
       </div>
