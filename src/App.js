@@ -219,66 +219,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
         </div>
         </div>
         </div>
-        <div ref={experiences} className='about-holder-title-line'>
-          <div className='line'></div>
-          <div className='about-title-line1'>&lt;</div>
-          <div className='about-title-line2'>Experiences</div>
-          <div className='about-title-line3'>/&gt;</div>
-          <div className='line'></div>
-        </div>
-        <div className='about-container-experience'>
-          <Animation><div className='about-line-experience'></div></Animation>
-          <div className='about-holder-content-experience'>
-          <div className='about-holder-contentAndIcon-experience'>
-          <AnimationChildren ><div className='about-titleAndSubtitle-experience'>
-          <div className='about-title-experience'>💻 Self-taught Full Stack Developer</div>
-          <div className='about-date-experience'>01/03/2020 ~ Present</div>
-          <div className='about-subtitle-experience'>Learned web development independently through various online resources and personal projects.
-Although my learning pace was irregular due to military service (1.5 years) and other commitments, I continued improving my skills and completed several front-end projects to strengthen my portfolio.</div>
-          </div></AnimationChildren>
-          <Animation><div className='onair-red'></div></Animation>
-          <Animation><div className='onair'></div></Animation>
-          </div>
-          <div className='about-holder-contentAndIcon-experience'>
-          <AnimationChildren ><div className='about-titleAndSubtitle-experience'>
-          <div className='about-title-experience'>💇🏻 Worked as the front-end developer on the Mezzanine Dermatology website, handling layout design and implementation.</div>
-          <div className='about-date-experience'>01/05/2024 ~ 01/12/2025</div>
-          <div className='about-subtitle-experience'>Worked part-time while attending school at a company in Gangnam District, Seoul, South Korea.
-Collaborated with another developer to learn and build the Mezzanine Dermatology website from scratch.
-Participated in the Front-end development process, including layout design and implementation.
-Gained hands-on experience through real-world teamwork and practical web development.</div>
-          </div></AnimationChildren>
-          <Animation><div className='checked'></div></Animation>
-          </div>
-          <div className='about-holder-contentAndIcon-experience'>
-          <AnimationChildren ><div className='about-titleAndSubtitle-experience'>
-          <div className='about-title-experience'>🚢 Graduated with a Bachelor’s Degree in Naval Architecture and Ocean Engineering</div>
-          <div className='about-date-experience'>01/03/2020 ~ 26/12/2025</div>
-          <div className='about-subtitle-experience'>University of Ulsan, South Korea (4 years) Developed a strong foundation in problem-solving, analytical thinking, and system design through rigorous engineering 
-          coursework and team projects. My academic background helped me build logical thinking skills that I now apply to web development and software architecture.</div>
-          </div></AnimationChildren>
-          <Animation><div className='checked'></div></Animation>
-          </div>
-          <div className='about-holder-contentAndIcon-experience'>
-          <AnimationChildren><div className='about-titleAndSubtitle-experience'>
-          <div className='about-title-experience'>💪 Completed 18 months of mandatory military service in Korea</div> 
-          <div className='about-date-experience'>18/11/2020 ~ 17/05/2023</div>
-          <div className='about-subtitle-experience'>Served as a driver-soldier Successfully fulfilled national service with discipline and responsibility. During my service, I learned how to stay calm under pressure, work efficiently in structured environments, 
-          and collaborate closely with teammates to achieve collective goals.</div>
-          </div></AnimationChildren>
-          <Animation><div className='checked'></div></Animation>
-          </div>
-          <div className='about-holder-contentAndIcon-experience'>
-          <AnimationChildren><div className='about-titleAndSubtitle-experience'>
-          <div className='about-title-experience'>🏡 Running an Airbnb business in Leeds, UK (with my wife)</div>   
-          <div className='about-date-experience'>01/03/2025 ~ 01/09/2025</div>
-          <div className='about-subtitle-experience'>6 months of hands-on experience in property management and customer service Co-managed an Airbnb property, handling guest communication, logistics, and maintenance. This experience strengthened my communication skills, 
-          attention to detail, and ability to provide excellent user experiences — qualities that I also value as a developer when building digital products.</div>
-          </div></AnimationChildren>
-          <Animation><div className='checked'></div></Animation>
-          </div>
-          </div>
-          </div>
+        
         </div>
         <div className='project-sentence' initial={{opacity: 0}}
         animate={{opacity:1}} transition={{duration: 0}}>
@@ -622,6 +563,68 @@ Gained hands-on experience through real-world teamwork and practical web develop
           </AnimationClone>
         </div>
         </div>
+
+        <div ref={experiences} className='about-holder-title-line'>
+          <div className='line'></div>
+          <div className='about-title-line1'>&lt;</div>
+          <div className='about-title-line2'>Experiences</div>
+          <div className='about-title-line3'>/&gt;</div>
+          <div className='line'></div>
+        </div>
+        <div className='about-container-experience'>
+          <Animation><div className='about-line-experience'></div></Animation>
+          <div className='about-holder-content-experience'>
+          <div className='about-holder-contentAndIcon-experience'>
+          <AnimationChildren ><div className='about-titleAndSubtitle-experience'>
+          <div className='about-title-experience'>💻 Self-taught Full Stack Developer</div>
+          <div className='about-date-experience'>01/03/2020 ~ Present</div>
+          <div className='about-subtitle-experience'>Learned web development independently through various online resources and personal projects.
+Although my learning pace was irregular due to military service (1.5 years) and other commitments, I continued improving my skills and completed several front-end projects to strengthen my portfolio.</div>
+          </div></AnimationChildren>
+          <Animation><div className='onair-red'></div></Animation>
+          <Animation><div className='onair'></div></Animation>
+          </div>
+          <div className='about-holder-contentAndIcon-experience'>
+          <AnimationChildren ><div className='about-titleAndSubtitle-experience'>
+          <div className='about-title-experience'>💇🏻 Worked as the front-end developer on the Mezzanine Dermatology website, handling layout design and implementation.</div>
+          <div className='about-date-experience'>01/05/2024 ~ 01/12/2025</div>
+          <div className='about-subtitle-experience'>Worked part-time while attending school at a company in Gangnam District, Seoul, South Korea.
+Collaborated with another developer to learn and build the Mezzanine Dermatology website from scratch.
+Participated in the Front-end development process, including layout design and implementation.
+Gained hands-on experience through real-world teamwork and practical web development.</div>
+          </div></AnimationChildren>
+          <Animation><div className='checked'></div></Animation>
+          </div>
+          <div className='about-holder-contentAndIcon-experience'>
+          <AnimationChildren ><div className='about-titleAndSubtitle-experience'>
+          <div className='about-title-experience'>🚢 Graduated with a Bachelor’s Degree in Naval Architecture and Ocean Engineering</div>
+          <div className='about-date-experience'>01/03/2020 ~ 26/12/2025</div>
+          <div className='about-subtitle-experience'>University of Ulsan, South Korea (4 years) Developed a strong foundation in problem-solving, analytical thinking, and system design through rigorous engineering 
+          coursework and team projects. My academic background helped me build logical thinking skills that I now apply to web development and software architecture.</div>
+          </div></AnimationChildren>
+          <Animation><div className='checked'></div></Animation>
+          </div>
+          <div className='about-holder-contentAndIcon-experience'>
+          <AnimationChildren><div className='about-titleAndSubtitle-experience'>
+          <div className='about-title-experience'>💪 Completed 18 months of mandatory military service in Korea</div> 
+          <div className='about-date-experience'>18/11/2020 ~ 17/05/2023</div>
+          <div className='about-subtitle-experience'>Served as a driver-soldier Successfully fulfilled national service with discipline and responsibility. During my service, I learned how to stay calm under pressure, work efficiently in structured environments, 
+          and collaborate closely with teammates to achieve collective goals.</div>
+          </div></AnimationChildren>
+          <Animation><div className='checked'></div></Animation>
+          </div>
+          <div className='about-holder-contentAndIcon-experience'>
+          <AnimationChildren><div className='about-titleAndSubtitle-experience'>
+          <div className='about-title-experience'>🏡 Running an Airbnb business in Leeds, UK (with my wife)</div>   
+          <div className='about-date-experience'>01/03/2025 ~ 01/09/2025</div>
+          <div className='about-subtitle-experience'>6 months of hands-on experience in property management and customer service Co-managed an Airbnb property, handling guest communication, logistics, and maintenance. This experience strengthened my communication skills, 
+          attention to detail, and ability to provide excellent user experiences — qualities that I also value as a developer when building digital products.</div>
+          </div></AnimationChildren>
+          <Animation><div className='checked'></div></Animation>
+          </div>
+          </div>
+          </div>
+
         <div className='holder-react-bottomAndsentences'>
         <div className='react-bottom'></div>
         <div className='title-inspire'>Get In Touch</div>
