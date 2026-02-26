@@ -301,6 +301,7 @@ body {
   display: flex;
   gap: 5rem;
   animation: FadeIn 2s forwards;
+  margin: 0 auto;
 }
 .about-beyond-component-flex {
   display: flex;
