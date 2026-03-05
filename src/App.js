@@ -1,6 +1,7 @@
 import {useRef ,useState, useEffect, cloneElement } from 'react';
 import { useForm } from '@formspree/react';
 import './App.css';
+import { motion } from "framer-motion";
 
 function App() {
   const [email, setEmail] = useState("");
@@ -92,14 +93,32 @@ function App() {
 
   return (
     <div ref={home}>
+      
       <div className='blur'></div>
       <div className='top-menu'>
-        <div className='top-menu-unit' onClick={() => scrollToTop()}>Home</div>
-        <div className='top-menu-unit' onClick={() => scrollToSection(beyond)}>Beyond</div>
-        <div className='top-menu-unit' onClick={() => scrollToSection(tech)}>Tech</div>
-        <div className='top-menu-unit' onClick={() => scrollToSection(projects)}>Projects</div>
-        <div className='top-menu-unit' onClick={() => scrollToSection(experiences)}>Experiences</div>
-        <div className='top-menu-unit' onClick={() => scrollToSection(contact)}>Contact</div>
+        <motion.div className='top-menu-unit' whileTap={{ scale: 0.9 }} onClick={() => scrollToTop()}>
+          Home
+        </motion.div>
+
+        <motion.div className='top-menu-unit' whileTap={{ scale: 0.9 }} onClick={() => scrollToSection(beyond)}>
+          Beyond
+        </motion.div>
+
+        <motion.div className='top-menu-unit' whileTap={{ scale: 0.9 }} onClick={() => scrollToSection(tech)}>
+          Tech
+        </motion.div>
+
+        <motion.div className='top-menu-unit' whileTap={{ scale: 0.9 }} onClick={() => scrollToSection(projects)}>
+          Projects
+        </motion.div>
+
+        <motion.div className='top-menu-unit' whileTap={{ scale: 0.9 }} onClick={() => scrollToSection(experiences)}>
+          Experiences
+        </motion.div>
+
+        <motion.div className='top-menu-unit' whileTap={{ scale: 0.9 }} onClick={() => scrollToSection(contact)}>
+          Contact
+        </motion.div>
       </div>
         <div className='about-title' initial={{opacity: 0}}
         animate={{opacity:1}} transition={{duration: 1.4, delay: 0.3}}>
