@@ -30,7 +30,7 @@ function App() {
   } handleSubmit(e); 
   };
 
-  function AnimationChildren({ children, threshold = 0.3}){
+  function AnimationChildren({ children, threshold = 0.2}){
     const [visible, setVisible] = useState(false);
     const ref = useRef();
 
@@ -48,7 +48,7 @@ function App() {
     )
   }
 
-  function AnimationClone({ children, threshold = 0.3}){
+  function AnimationClone({ children, threshold = 0.2}){
     const [visible, setVisible] = useState(false);
     const ref = useRef();
 
@@ -64,7 +64,7 @@ function App() {
     return cloneElement(children, {ref, className: visible ? children.props.className : "invisible"})
   }
 
-  function Animation({ children, threshold = 0.3}){
+  function Animation({ children, threshold = 0.2}){
     const [visible, setVisible] = useState(false);
     const ref = useRef();
 
