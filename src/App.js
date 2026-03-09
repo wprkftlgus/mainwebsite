@@ -257,7 +257,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
         <AnimationChildren><div className='picture-project0'></div></AnimationChildren>
         <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'></div></AnimationChildren>
-          <AnimationChildren><div className='in-progress'>In progress</div></AnimationChildren>
+          <AnimationChildren><div className='in-progress'>Server paused due to cost</div></AnimationChildren>
           <AnimationChildren><div className='title-project'>Sihyeonzon</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>Developed a fully functional, Amazon-inspired all-in-one SaaS marketplace website entirely on my own, featuring secure user authentication, product management, cart functionality, and a desktop-oriented frontend built with TypeScript, while handling backend deployment, cloud infrastructure, and automated CI/CD to deliver a complete end-to-end full-stack solution.</div></AnimationChildren>
           <div className='starandsentence'>
@@ -274,10 +274,30 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
           </div>
           <AnimationClone>
           <div className='flex-liveandgit'>
-          <div className='livewebsite'><a id='live' target='_blank' href='https://sihyeonzon.online/'>
-                        <div className='live-button'>Live</div></a></div>
-          <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus/Sihyeonzon'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
-          </div>
+  <div className='livewebsite'>
+    <a 
+      id='live' 
+      target='_blank' 
+      href='https://subtle-hummingbird-788d7e.netlify.app' 
+      rel="noopener noreferrer"
+    >
+      <div className='live-button'>Live</div>
+    </a>
+  </div>
+
+  <div className='gitwebsite'>
+    <a 
+      id='git' 
+      target='_blank' 
+      href='https://github.com/wprkftlgus/Sihyeonzon' 
+      rel="noopener noreferrer"
+    >
+      <div className='holder-git-button'>
+        <div className='git-button'></div>
+      </div>
+    </a>
+  </div>
+</div>
           </AnimationClone>
           <AnimationClone>
           <div className='holder-project-skills-project1'>
