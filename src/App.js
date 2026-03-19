@@ -253,6 +253,116 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
         </div>
         <div className='gap'></div>
 
+<div className='holder-project'>
+        <AnimationChildren><div className='picture-project-leadtaro'></div></AnimationChildren>
+        <div className='holder-project-explanation'>
+          <AnimationChildren><div className='title-project'></div></AnimationChildren>
+          <AnimationChildren><div className='in-progress'>AI-Driven</div></AnimationChildren>
+          <AnimationChildren><div className='title-project'>LeadTaro</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>Built and launched a scalable B2B lead generation platform enabling global business search with instant access to contact info, websites, and social profiles across any city or industry.
+
+Developed end-to-end outreach tools including ,CRM pipeline management, and analytics dashboards to streamline the entire lead-to-deal process in one platform.</div></AnimationChildren>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Founded and independently developed a B2B lead generation platform using Vite, TailwindCSS, MySQL,
+and AWS.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Implemented AI-assisted features with Claude, ChatGPT, and Base44 for web scraping (Google Maps &
+social media) and Stripe payments</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Deployed API server on AWS ECS and worker server on Hetzner, using Upstash Redis to handle heavy
+tasks like crawling</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Managed backend via Docker, ECR, CloudWatch monitoring, EC2 load balancer health checks, and
+internal SSL certification</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Handled authentication and authorization with JWT, bcrypt, cookies, Google OAuth, and Nodemailer</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Stored environment variables securely in AWS S3 for dynamic task configuration.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Leveraged AI-driven solutions to accelerate development while ensuring secure, maintainable, and
+production-ready code.</div></AnimationChildren>
+          </div>
+          <AnimationClone>
+          <div className='flex-liveandgit'>
+  <div className='livewebsite'>
+    <a 
+      id='live' 
+      target='_blank' 
+      href='https://www.leadtaro.com' 
+      rel="noopener noreferrer"
+    >
+      <div className='live-button'>Live</div>
+    </a>
+  </div>
+
+  <div className='gitwebsite'>
+    <a 
+      id='git' 
+      target='_blank' 
+      href='https://github.com/wprkftlgus' 
+      rel="noopener noreferrer"
+    >
+      <div className='holder-git-button'>
+        <div className='git-button'></div>
+      </div>
+    </a>
+  </div>
+</div>
+          </AnimationClone>
+          <AnimationClone>
+          <div className='holder-project-skills-project1'>
+  <div className='flex-project-skills-project1'>
+    <div className='css-skill'>AWS</div>
+    <div className='css-skill'>EC2</div>
+    <div className='css-skill'>ECR</div>
+    <div className='css-skill'>S3</div>
+   </div>
+   <div className='flex-project-skills-project1'>
+    <div className='css-skill'>RDS</div>
+    <div className='css-skill'>IAM</div>
+    <div className='css-skill'>SSH</div>
+    <div className='css-skill'>Redish</div>
+   </div>
+   <div className='flex-project-skills-project1'>
+    <div className='css-skill'>Hetzner</div>
+    <div className='css-skill'>Hostinger</div>
+    <div className='css-skill'>TypeScript</div>
+    <div className='css-skill'>Vite</div>
+    </div>
+    <div className='flex-project-skills-project1'>
+    <div className='css-skill'>Tailwind CSS</div>
+    <div className='css-skill'>HTML</div>
+    <div className='css-skill'>CSS</div>
+    <div className='css-skill'>Node.js</div>
+    </div>
+    <div className='flex-project-skills-project1'>
+    <div className='css-skill'>Express.js</div>
+    <div className='css-skill'>MySQL</div>
+    <div className='css-skill'>JWT</div>
+    <div className='css-skill'>bcrypt</div>
+  </div>
+  <div className='flex-project-skills-project1'>
+    <div className='css-skill'>REST API</div>
+    <div className='css-skill'>Router</div>
+    <div className='css-skill'>Google OAuth</div>
+  </div>
+  <div className='flex-project-skills-project1'>
+    <div className='css-skill'>Docker</div>
+    <div className='css-skill'>Nodemailer</div>
+  </div>
+</div>
+
+          </AnimationClone>
+        </div>
+        </div>
+
+
         <div className='holder-project'>
         <AnimationChildren><div className='picture-project0'></div></AnimationChildren>
         <div className='holder-project-explanation'>
