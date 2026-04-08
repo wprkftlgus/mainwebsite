@@ -179,7 +179,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
         </AnimationChildren>
         </div>
         <div ref={tech} className='about-holder-techstacks'>
-        <div className='about-holder-title-line'>
+        <div className='about-holder-title-line-techstacks'>
           <div className='line'></div>
           <div className='about-title-line1'>&lt;</div>
           <div className='about-title-line2'>Tech Stacks</div>
