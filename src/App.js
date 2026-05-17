@@ -362,6 +362,43 @@ production-ready code.</div></AnimationChildren>
         </div>
         </div>
 
+<div className='holder-project'>
+        <AnimationChildren><div className='picture-project-jams'></div></AnimationChildren>
+        <div className='holder-project-explanation'>
+          <AnimationChildren><div className='in-progress'>Collaboration</div></AnimationChildren>
+          <AnimationChildren><div className='title-project'>Jams Facility Services</div></AnimationChildren>
+          <AnimationChildren><div className='ex-project'>Built a modern business website for Jams Facility Services in collaboration with JSdigital using React, JavaScript, and CSS. The project focused on delivering a clean and professional UI/UX for a property cleaning company, featuring approximately 10 fully responsive pages optimized for both desktop and mobile devices.</div></AnimationChildren>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Developed a fully responsive 10-page business website with modern UI/UX for a property cleaning company.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project2'>Implemented smooth section-based navigation and multi-page routing using React Router Link.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Integrated Web3Forms API to enable direct email contact functionality through the website.</div></AnimationChildren>
+          </div>
+          <div className='starandsentence'>
+          <div className='star'></div><AnimationChildren><div className='subsubtitle-project1'>Built reusable React components and optimized layouts for responsiveness and user interaction.</div></AnimationChildren>
+          </div>
+          <AnimationClone>
+          <div className='flex-liveandgit'>
+          <div className='livewebsite'><a id='live' target='_blank' href='https://jams-facility-services.vercel.app/'>
+                        <div className='live-button'>Live</div></a></div>
+          <div className='gitwebsite'><a id='git' target='_blank' href='https://github.com/wprkftlgus'><div className='holder-git-button'><div className='git-button'></div></div></a></div>
+          </div>
+          </AnimationClone>
+          <AnimationClone>
+          <div className='holder-project-skills'>
+            <div className='css-skill'>React</div>
+            <div className='css-skill'>HTML</div>
+            <div className='css-skill'>CSS</div>
+            <div className='css-skill'>JavaScript</div>
+            <div className='css-skill'>Vercel</div>
+          </div>
+          </AnimationClone>
+        </div>
+        </div>
+
 
         <div className='holder-project'>
         <AnimationChildren><div className='picture-project0'></div></AnimationChildren>

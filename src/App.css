@@ -1518,6 +1518,18 @@ body {
   opacity: 0;
   animation: FadeInFromLeft 0.5s 0.1s forwards;
 }
+.picture-project-jams {
+  background-image: url('../public/jams.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 35rem;
+  min-width: 35rem;
+  height: 30rem;
+  max-height: 30rem;
+  cursor: pointer;
+  opacity: 0;
+  animation: FadeInFromLeft 0.5s 0.1s forwards;
+}
 .picture-project6 {
   background-image: url('../public/netflix.PNG');
   background-size: contain;
@@ -1883,6 +1895,10 @@ body {
     min-width: 25rem;
   }
   .picture-project6 {
+    max-width: 25rem;
+    min-width: 25rem;
+  }
+  .picture-project-jams {
     max-width: 25rem;
     min-width: 25rem;
   }
@@ -2345,6 +2361,10 @@ body {
     max-width: 20rem;
     min-width: 20rem;
   }
+  .picture-project-jams {
+    max-width: 20rem;
+    min-width: 20rem;
+  }
   .picture-project7 {
     max-width: 20rem;
     min-width: 20rem;
@@ -2408,6 +2428,10 @@ body {
     min-width: 17rem;
   }
   .picture-project6 {
+    max-width: 17rem;
+    min-width: 17rem;
+  }
+  .picture-project-jams {
     max-width: 17rem;
     min-width: 17rem;
   }
@@ -2725,6 +2749,11 @@ body {
     max-width: 15rem;
     min-width: 15rem;
   }
+  .picture-project-jams {
+    height: 25rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
   .picture-project7 {
     height: 25rem;
     max-width: 15rem;
@@ -2943,6 +2972,11 @@ body {
     max-width: 12rem;
     min-width: 12rem;
   }
+  .picture-project-jams {
+    height: 20rem;
+    max-width: 12rem;
+    min-width: 12rem;
+  }
   .picture-project7 {
     height: 20rem;
     max-width: 12rem;
@@ -3056,6 +3090,11 @@ body {
     max-height: 14rem;
   }
   .picture-project6 {
+    margin: 0 auto;
+    max-width: 24rem;
+    max-height: 14rem;
+  }
+  .picture-project-jams {
     margin: 0 auto;
     max-width: 24rem;
     max-height: 14rem;
@@ -3204,6 +3243,10 @@ body {
     max-height: 13rem;
   }
   .picture-project6 {
+    max-width: 20rem;
+    max-height: 13rem;
+  }
+  .picture-project-jams {
     max-width: 20rem;
     max-height: 13rem;
   }
