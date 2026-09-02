@@ -258,7 +258,7 @@ I'm eager to bring fresh ideas and technical skills to every project I take on.<
         <div className='holder-project-explanation'>
           <AnimationChildren><div className='title-project'></div></AnimationChildren>
           <AnimationChildren><div className='in-progress'>AI-Driven</div></AnimationChildren>
-          <AnimationChildren><div className='title-project'>LeadTaro</div></AnimationChildren>
+          <AnimationChildren><div className='title-project'>LeadBoba</div></AnimationChildren>
           <AnimationChildren><div className='ex-project'>Built and launched a scalable B2B lead generation platform enabling global business search with instant access to contact info, websites, and social profiles across any city or industry.
 
 Developed end-to-end outreach tools including ,CRM pipeline management, and analytics dashboards to streamline the entire lead-to-deal process in one platform.</div></AnimationChildren>
@@ -294,7 +294,7 @@ production-ready code.</div></AnimationChildren>
     <a 
       id='live' 
       target='_blank' 
-      href='https://www.leadtaro.com' 
+      href='https://www.leadboba.com' 
       rel="noopener noreferrer"
     >
       <div className='live-button'>Live</div>
